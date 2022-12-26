@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+
+<h1>{{ .Params.subtitle1 }}
+    <span>{{ .Params.subtitle2 }}</span>
+</h1>
+
+{{ .Content }}
+
+{{ partial "footer.html" . }}

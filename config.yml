@@ -1,0 +1,21 @@
+baseURL: http://ayline-travers.com
+languageCode: en-us
+title: Ayline Travers
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - identifier: projets
+    - name: Projets
+    - url: /projets
+    - weight: 10
+
+  main:
+    - identifier: about
+    - name: About
+    - url: /about
+    - weight: 20
