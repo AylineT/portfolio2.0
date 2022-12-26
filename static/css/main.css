@@ -1,0 +1,59 @@
+/* NAVIGATION */
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.site-nav .nav-items {
+  display: flex;
+  width: 2vw;
+}
+
+.site-nav a {
+  display: block;
+  padding: 1rem;
+}
+
+.site-nav .logo {
+  width: 70px;
+  height: 70px;
+}
+
+.main-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 48rem) {
+  .site-nav,
+.main-menu {
+    flex-direction: column;
+  }
+  .site-nav a {
+    padding: 0.5rem;
+    padding-left: 0;
+  }
+}
+/* LAYOUT */
+.content {
+  color: #333;
+  font-size: 125%;
+  line-height: 1.5;
+  padding: 1rem;
+  margin: 0px, 60px, 0px, 60px;
+}
+
+/* LISTS */
+.list-projet {
+  margin-bottom: 1rem;
+}
+
+.list-projet h3 {
+  margin-bottom: 0.25rem;
+}
+
+/* ACCUEIL */
+.avatar-img {
+  width: 30vw;
+}/*# sourceMappingURL=main.css.map */

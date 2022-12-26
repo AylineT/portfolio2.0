@@ -2,7 +2,15 @@
   
 .site-nav {
     display: flex;
+    justify-content: space-between;
+
+    .nav-items{
+        display: flex;
+        width: 2vw;
+    }
   }
+
+
   
   .site-nav a {
     display: block;
@@ -10,8 +18,8 @@
   }
   
   .site-nav .logo {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
   }
   
   .main-menu {
@@ -31,4 +39,4 @@
       padding: 0.5rem;
       padding-left: 0;
     }
-  }
+}

@@ -1,0 +1,22 @@
+/* LAYOUT */
+.content {
+  color: #333;
+  font-size: 125%;
+  line-height: 1.5;
+  padding: 1rem;
+  margin: 0px, 60px, 0px, 60px;
+}
+
+/* LISTS */
+.list-projet {
+  margin-bottom: 1rem;
+}
+
+.list-projet h3 {
+  margin-bottom: 0.25rem;
+}
+
+/* ACCUEIL */
+.avatar-img {
+  width: 30vw;
+}/*# sourceMappingURL=global.css.map */

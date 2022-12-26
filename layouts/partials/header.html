@@ -1,22 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<header class="site-header">
+  <nav class="site-nav">
 
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <a href="{{ .Site.BaseURL }}">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXEATWbQM92AhQdOxAW42QJBXgCVBHXebiAd0Uu8csOI3yh9jJxfu4PfY5wwu0o9zSwBI&usqp=CAU" alt="" class="logo">
+    </a>
 
-	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    <div class="nav-items">
+      <a href="{{ .Site.BaseURL }}">Accueil</a>
+      <a href="/projets/">Projets</a>
+    </div>
 
-	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+    
 
-	{{ with .OutputFormats.Get "rss" -}}
-		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-	{{ end -}}
+    <!-- <ul class="main-menu">
+      {{ range.Site.Menus.main }}  boucle for each 
+      <li>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul> -->
 
-</head>
 
-<body>
-
-{{ partial "nav.html" . }}
-
-<main class="content">
+  </nav>
+</header>
