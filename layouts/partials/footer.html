@@ -1,8 +1,27 @@
 </main>
 	
 <footer>
-	footer
-	<p>&copy;{{ dateFormat "2006" now }} {{ .Site.Title }}</p>
+
+	<div class="pub-footer">
+		<h3>Merci de votre visite !</h3>
+		<p>Je suis à la rechercher d’un stage à partir du mois d’avril pour une durée de 3 mois. Si mon profil vous intéresse, n’hésitez pas à me contacter ! </p>
+		<p>&copy;{{ dateFormat "2006" now }} {{ .Site.Title }}</p>
+	</div>
+
+	<div class="liens-footer">
+		<a href="{{ .Site.BaseURL }}">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXEATWbQM92AhQdOxAW42QJBXgCVBHXebiAd0Uu8csOI3yh9jJxfu4PfY5wwu0o9zSwBI&usqp=CAU" alt="logo" class="logo">
+		</a>
+		<div class="contact">
+			<ul>
+				<li><a href="#">Linkedin</a></li>
+				<li><a href="#">Github</a></li>
+				<li><a href="#">ayline.travers@gmail.com</a></li>
+			</ul>
+		</div>
+	</div>
+
+
 </footer>
 
 </body>

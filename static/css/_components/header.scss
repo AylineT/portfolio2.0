@@ -1,42 +1,47 @@
-/* NAVIGATION */
-  
-.site-nav {
+@import "variables.scss";
+
+/*HEADER*/
+
+header{
     display: flex;
     justify-content: space-between;
 
-    .nav-items{
+    .avatar-img{
+        width: 30vw;
+    }
+
+    .info-header{
         display: flex;
-        width: 2vw;
-    }
-  }
+        flex-direction: column;
+        justify-content: space-between;
+        height: 35vw;
 
+        .titre-header{
+            display: flex;
+            justify-content: end;
+            flex-wrap: wrap;
+        }   
 
-  
-  .site-nav a {
-    display: block;
-    padding: 1rem;
-  }
-  
-  .site-nav .logo {
-    width: 70px;
-    height: 70px;
-  }
-  
-  .main-menu {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  @media screen and (max-width: 48rem) {
-    .site-nav,
-    .main-menu {
-      flex-direction: column;
-    }
-  
-    .site-nav a {
-      padding: 0.5rem;
-      padding-left: 0;
-    }
+        h1 {
+            span{
+                top: -109px; 
+                right: 77px;
+            }
+        }
+    
+    }    
+
 }
+
+.contact{
+    text-align: end;
+
+    ul{
+        list-style-type: none;
+    }
+    
+}
+
+
+
+

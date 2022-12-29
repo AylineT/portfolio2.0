@@ -1,0 +1,41 @@
+@import "variables.scss";
+
+/* NAVIGATION */
+  
+nav {
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    width: -webkit-fill-available;
+
+    .nav-items{
+        display: flex;
+        justify-content: space-between;
+        width: 15vw;
+        align-items: center;
+    }
+
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+  
+//   @media screen and (max-width: 48rem) {
+//     .site-nav,
+//     .main-menu {
+//       flex-direction: column;
+//     }
+  
+//     .site-nav a {
+//       padding: 0.5rem;
+//       padding-left: 0;
+//     }
+// }
+

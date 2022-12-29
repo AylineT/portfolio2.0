@@ -1,0 +1,22 @@
+@import url("https://use.typekit.net/ggb0ndc.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  background-color: #b4b4b4;
+  margin-top: 100px;
+  padding: 50px;
+}
+footer .pub-footer {
+  display: flex;
+  width: 40vw;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .liens-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}/*# sourceMappingURL=footer.css.map */

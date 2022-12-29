@@ -1,16 +1,82 @@
-/* LAYOUT */
 
-.content {
-    color: #333;
-    font-size: 125%;
-    line-height: 1.5;
-    // max-width: 45rem;
-    padding: 1rem;
-    margin: 0px, 60px, 0px, 60px;
+@import "variables.scss";
+
+/* GENERAL */
+
+h1, h2, h3{
+    font-family: $title-font;
+    margin: 0;
+    color: $noir;
+}
+
+h1{
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+    font-size: $h1;
+    font-weight: 600;
+    span{
+        position: relative; 
+        height: 4vw;
+        // top: -103px; 
+        // right: 64px;
+    }
+}
+
+h2{
+    font-size: $h2;
+    font-weight: 600;
+
+    ::after{
+        content: "et si je met du content";
+        background-color: gray;
+        background-position: 0 55%;
+        background-size: 100% 25%;
+        padding: 0.25rem 0;
+        background-repeat: no-repeat;
+    }
+}
+
+h3{
+    font-size: $h3;
+    font-weight: 500;
+}
+
+p, a{
+    font-family: $p-font;
+    font-size: $p;
+    color: $noir;
+    font-weight: 400;
+    margin: 0;
+
+    a{
+        text-decoration: underline;
+        color: $noir;
+    }
+    
 }
 
 
-/* LISTS */
+
+/* LAYOUT */
+
+body{
+    margin: 0;
+    // background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p3/5235061-bullet-journal-texture-seamless-pattern-black-dot-grid-graph-paper-template-for-notebooks-dotted-background-vectoriel.jpg"); /* The image used */
+    // background-repeat: repeat;
+    // background-size: cover;
+    // background-color: rgba($color: #d1b183, $alpha: 0.5);
+}
+
+.content {
+    color: #333;
+    // max-width: 45rem;
+    //padding: 1rem;
+    margin: 130px 60px 0px 60px;
+}
+
+
+/* LISTE PROJET */
   
 .list-projet {
     margin-bottom: 1rem;
@@ -21,8 +87,45 @@
 }
   
 
-/* ACCUEIL */
 
-.avatar-img{
-    width: 30vw;
+.span-projet{
+    top: -119px;
+    right: 74px;
+}
+
+
+
+
+
+/* QUI SUIS-JE */
+
+.qui-suis-je{
+    width: 80vw;
+    margin: 160px 0;
+
+    h2{
+        text-align: center;
+    }
+
+    .presentation{
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            width: 300px;
+        }
+
+        .intro{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 50vw;
+        }
+    }
+}
+
+/* PROJETS ACCUEIL*/
+
+.projets-accueil{
+
 }

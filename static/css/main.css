@@ -1,50 +1,104 @@
-/* NAVIGATION */
-.site-nav {
+@import url("https://use.typekit.net/ggb0ndc.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+/*HEADER*/
+@import url("https://use.typekit.net/ggb0ndc.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://use.typekit.net/ggb0ndc.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://use.typekit.net/ggb0ndc.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://use.typekit.net/ggb0ndc.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+header {
   display: flex;
   justify-content: space-between;
 }
-.site-nav .nav-items {
+header .avatar-img {
+  width: 30vw;
+}
+header .info-header {
   display: flex;
-  width: 2vw;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 35vw;
 }
-
-.site-nav a {
-  display: block;
-  padding: 1rem;
-}
-
-.site-nav .logo {
-  width: 70px;
-  height: 70px;
-}
-
-.main-menu {
+header .info-header .titre-header {
   display: flex;
-  list-style: none;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+header .info-header h1 span {
+  top: -109px;
+  right: 77px;
+}
+
+.contact {
+  text-align: end;
+}
+.contact ul {
+  list-style-type: none;
+}
+
+/* GENERAL */
+h1, h2, h3 {
+  font-family: sweet-sans-pro, sans-serif;
   margin: 0;
-  padding: 0;
+  color: rgb(21, 21, 21);
 }
 
-@media screen and (max-width: 48rem) {
-  .site-nav,
-.main-menu {
-    flex-direction: column;
-  }
-  .site-nav a {
-    padding: 0.5rem;
-    padding-left: 0;
-  }
+h1 {
+  display: flex;
+  text-align: end;
+  flex-direction: column;
+  font-size: 9rem;
+  font-weight: 600;
 }
+h1 span {
+  position: relative;
+  height: 4vw;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+h2 ::after {
+  content: "et si je met du content";
+  background-color: gray;
+  background-position: 0 55%;
+  background-size: 100% 25%;
+  padding: 0.25rem 0;
+  background-repeat: no-repeat;
+}
+
+h3 {
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+p, a {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.5rem;
+  color: rgb(21, 21, 21);
+  font-weight: 400;
+  margin: 0;
+}
+p a, a a {
+  text-decoration: underline;
+  color: rgb(21, 21, 21);
+}
+
 /* LAYOUT */
+body {
+  margin: 0;
+}
+
 .content {
   color: #333;
-  font-size: 125%;
-  line-height: 1.5;
-  padding: 1rem;
-  margin: 0px, 60px, 0px, 60px;
+  margin: 130px 60px 0px 60px;
 }
 
-/* LISTS */
+/* LISTE PROJET */
 .list-projet {
   margin-bottom: 1rem;
 }
@@ -53,7 +107,74 @@
   margin-bottom: 0.25rem;
 }
 
-/* ACCUEIL */
-.avatar-img {
-  width: 30vw;
+.span-projet {
+  top: -119px;
+  right: 74px;
+}
+
+/* QUI SUIS-JE */
+.qui-suis-je {
+  width: 80vw;
+  margin: 160px 0;
+}
+.qui-suis-je h2 {
+  text-align: center;
+}
+.qui-suis-je .presentation {
+  display: flex;
+  justify-content: space-between;
+}
+.qui-suis-je .presentation img {
+  width: 300px;
+}
+.qui-suis-je .presentation .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+/* PROJETS ACCUEIL*/
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  background-color: #b4b4b4;
+  margin-top: 100px;
+  padding: 50px;
+}
+footer .pub-footer {
+  display: flex;
+  width: 40vw;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .liens-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+/* NAVIGATION */
+nav {
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 60px;
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  width: -webkit-fill-available;
+}
+nav .nav-items {
+  display: flex;
+  justify-content: space-between;
+  width: 15vw;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
 }/*# sourceMappingURL=main.css.map */

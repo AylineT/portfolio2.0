@@ -1,37 +1,32 @@
-/* NAVIGATION */
-.site-nav {
+@import url("https://use.typekit.net/ggb0ndc.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+/*HEADER*/
+header {
   display: flex;
   justify-content: space-between;
 }
-.site-nav .nav-items {
+header .avatar-img {
+  width: 30vw;
+}
+header .info-header {
   display: flex;
-  width: 2vw;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 35vw;
 }
-
-.site-nav a {
-  display: block;
-  padding: 1rem;
-}
-
-.site-nav .logo {
-  width: 70px;
-  height: 70px;
-}
-
-.main-menu {
+header .info-header .titre-header {
   display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+header .info-header h1 span {
+  top: -109px;
+  right: 77px;
 }
 
-@media screen and (max-width: 48rem) {
-  .site-nav,
-.main-menu {
-    flex-direction: column;
-  }
-  .site-nav a {
-    padding: 0.5rem;
-    padding-left: 0;
-  }
+.contact {
+  text-align: end;
+}
+.contact ul {
+  list-style-type: none;
 }/*# sourceMappingURL=header.css.map */

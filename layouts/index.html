@@ -1,8 +1,51 @@
-{{ partial "header.html" . }}
+{{ partial "head.html" . }}
 
-<h1>{{ .Params.subtitle1 }}
-    <span>{{ .Params.subtitle2 }}</span>
-</h1>
+<header>
+    <img class="avatar-img" src="https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080" alt="">
+    <div class="info-header">
+        <div class="titre-header">
+            <h1>Ayline
+                <span>Travers</span>
+            </h1> 
+            <h2>{{ .Params.subtitle }}</h2>
+        </div>
+        <div class="contact">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">ayline.travers@gmail.com</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<section class="qui-suis-je">
+    <h2>Qui suis-je ?</h2>
+    <div class="presentation">
+        <div class="intro">
+            <p>Hello ! Moi c’est Ayline, j’ai 19 ans et je suis en deuxième année de BUT MMI, Métiers du Multimédia et d’Internet à l’IUT Bordeaux Montaigne. J’aime beaucoup apprendre de nouvelles choses, notamment en développement web, un domaine pour lequel je me suis découvert un fort attrait durant ma première année d’étude. Je suis aussi intéréssée par le webdesign, l’UI et l’UX qui sont pour moi des puits de créativité inépuisables. 
+                En dehors de ça, je suis passionée de musique et d’art de manière générale. waouh beau blabla</p>
+            <a href="#">Mon CV</a>
+        </div>
+        <img class="qui-img" src="https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080" alt="">
+    </div>
+</section>
+
+<section class="projets-accueil">
+    <h2>Mes projets</h2>
+    <div class="projet-preview">
+        <img class="img-projet-preview" src="#" alt="">
+        <div class="description-preview">
+            <div class="titres-preview">
+                {{ .Params.title }}
+                {{ .Params.subtitle1 }}
+            </div>
+            {{ .Params.description }}
+        </div>
+    </div>
+</section>
+
+
 
 {{ .Content }}
 
