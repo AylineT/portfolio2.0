@@ -1,5 +1,6 @@
 ---
 title: "Projet2"
+url: "/projets/2"
 date: 2020-09-03T17:27:59+07:00
 subtitle1: Groupe de 5
 

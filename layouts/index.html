@@ -7,20 +7,20 @@
             <h1>Ayline
                 <span>Travers</span>
             </h1> 
-            <h2>{{ .Params.subtitle }}</h2>
+            <h2><span>{{ .Params.subtitle }}</span></h2>
         </div>
         <div class="contact">
             <ul>
-                <li><a href="#">Linkedin</a></li>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">ayline.travers@gmail.com</a></li>
+                <li><a href="www.linkedin.com/in/ayline-travers-a29087231">Linkedin</a></li>
+                <li><a href="https://github.com/AylineT">Github</a></li>
+                <li><a href="mailto:ayline.travers@gmail.com">ayline.travers@gmail.com</a></li>
             </ul>
         </div>
     </div>
 </header>
 
 <section class="qui-suis-je">
-    <h2>Qui suis-je ?</h2>
+    <h2><span>Qui suis-je ?</span></h2>
     <div class="presentation">
         <div class="intro">
             <p>Hello ! Moi c’est Ayline, j’ai 19 ans et je suis en deuxième année de BUT MMI, Métiers du Multimédia et d’Internet à l’IUT Bordeaux Montaigne. J’aime beaucoup apprendre de nouvelles choses, notamment en développement web, un domaine pour lequel je me suis découvert un fort attrait durant ma première année d’étude. Je suis aussi intéréssée par le webdesign, l’UI et l’UX qui sont pour moi des puits de créativité inépuisables. 
@@ -32,17 +32,53 @@
 </section>
 
 <section class="projets-accueil">
-    <h2>Mes projets</h2>
+
+    <h2><span>Mes projets</span></h2>
+   
     <div class="projet-preview">
-        <img class="img-projet-preview" src="#" alt="">
+        {{ with .GetPage "/projets/projet1.md" }}
+        <img class="img-projet-preview" src="{{ .Params.illustration }}" alt="">
         <div class="description-preview">
             <div class="titres-preview">
-                {{ .Params.title }}
-                {{ .Params.subtitle1 }}
+                <h3>{{ .Params.title }}</h3>
+                <p>{{ .Params.subtitle1 }}</p>
             </div>
-            {{ .Params.description }}
+            <p>{{ .Params.description }}</p>
+            <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a>
         </div>
+        {{ end }}
     </div>
+
+    <div class="projet-preview">
+        {{ with .GetPage "/projets/projet2.md" }}
+        <img class="img-projet-preview" src="{{ .Params.illustration }}" alt="">
+        <div class="description-preview">
+            <div class="titres-preview">
+                <h3>{{ .Params.title }}</h3>
+                <p>{{ .Params.subtitle1 }}</p>
+            </div>
+            <p>{{ .Params.description }}</p>
+            <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a>
+        </div>
+        {{ end }}
+    </div>
+
+    <div class="projet-preview">
+        {{ with .GetPage "/projets/projet3.md" }}
+        <img class="img-projet-preview" src="{{ .Params.illustration }}" alt="">
+        <div class="description-preview">
+            <div class="titres-preview">
+                <h3>{{ .Params.title }}</h3>
+                <p>{{ .Params.subtitle1 }}</p>
+            </div>
+            <p>{{ .Params.description }}</p>
+            <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a>
+        </div>
+        {{ end }}
+    </div>
+
+    <a href="/projets/" class="voir-plus-projets">Voir plus de projets</a>
+
 </section>
 
 

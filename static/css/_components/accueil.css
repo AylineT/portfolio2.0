@@ -1,0 +1,65 @@
+@import url("https://use.typekit.net/ggb0ndc.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+/*ACCUEIL*/
+/* QUI SUIS-JE */
+.qui-suis-je {
+  width: 80vw;
+  margin: 160px 0;
+}
+.qui-suis-je h2 {
+  text-align: center;
+}
+.qui-suis-je .presentation {
+  display: flex;
+  justify-content: space-between;
+}
+.qui-suis-je .presentation img {
+  width: 300px;
+}
+.qui-suis-je .presentation .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50vw;
+}
+.qui-suis-je .presentation .intro a {
+  margin-top: 30px;
+}
+
+/* LISTE 3 PROJETS ACCUEIL*/
+.projets-accueil {
+  margin: 160px 0;
+}
+.projets-accueil h2 {
+  text-align: center;
+}
+.projets-accueil .voir-plus-projets {
+  justify-content: center;
+  display: flex;
+}
+
+.projet-preview {
+  margin-bottom: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.projet-preview .description-preview {
+  margin-left: 130px;
+}
+.projet-preview .description-preview .titres-preview {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.projet-preview .description-preview .titres-preview p {
+  align-items: center;
+  display: flex;
+}
+.projet-preview img {
+  width: 500px;
+}
+.projet-preview .voir-plus {
+  justify-content: flex-end;
+  display: flex;
+  margin-top: 30px;
+}/*# sourceMappingURL=accueil.css.map */

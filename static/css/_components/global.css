@@ -21,13 +21,13 @@ h1 span {
 h2 {
   font-size: 3rem;
   font-weight: 600;
+  margin-bottom: 100px;
 }
-h2 ::after {
-  content: "et si je met du content";
-  background-color: gray;
-  background-position: 0 55%;
-  background-size: 100% 25%;
-  padding: 0.25rem 0;
+h2 span {
+  background-image: linear-gradient(to right, rgba(17, 168, 228, 0.2) 100%, rgba(17, 168, 228, 0.2) 100%);
+  background-position: 0 45px;
+  background-size: 110% 30%;
+  transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   background-repeat: no-repeat;
 }
 
@@ -38,14 +38,26 @@ h3 {
 
 p, a {
   font-family: "Manrope", sans-serif;
-  font-size: 1.5rem;
   color: rgb(21, 21, 21);
   font-weight: 400;
   margin: 0;
 }
-p a, a a {
+
+a {
   text-decoration: underline;
-  color: rgb(21, 21, 21);
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+/* DOT BACKGROUND */
+nav, footer, body {
+  background-image: linear-gradient(rgba(227, 198, 164, 0.199), rgba(227, 198, 164, 0.199)), url("https://static.vecteezy.com/ti/vecteur-libre/p3/5235061-bullet-journal-texture-seamless-pattern-black-dot-grid-graph-paper-template-for-notebooks-dotted-background-vectoriel.jpg"); /* The image used */
+  background-repeat: repeat;
+  background-size: 65%;
+  border-radius: 0px 0px 35px 35px;
 }
 
 /* LAYOUT */
@@ -55,43 +67,18 @@ body {
 
 .content {
   color: #333;
-  margin: 130px 60px 0px 60px;
+  margin: 110px 60px 0px 60px;
 }
 
-/* LISTE PROJET */
+/* PAGE LISTE PROJET */
 .list-projet {
-  margin-bottom: 1rem;
+  margin: 160px 0;
 }
-
-.list-projet h3 {
-  margin-bottom: 0.25rem;
+.list-projet h2 {
+  text-align: center;
 }
 
 .span-projet {
   top: -119px;
   right: 74px;
-}
-
-/* QUI SUIS-JE */
-.qui-suis-je {
-  width: 80vw;
-  margin: 160px 0;
-}
-.qui-suis-je h2 {
-  text-align: center;
-}
-.qui-suis-je .presentation {
-  display: flex;
-  justify-content: space-between;
-}
-.qui-suis-je .presentation img {
-  width: 300px;
-}
-.qui-suis-je .presentation .intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 50vw;
-}
-
-/* PROJETS ACCUEIL*//*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */

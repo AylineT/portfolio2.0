@@ -1,0 +1,85 @@
+@import "variables.scss";
+
+/*ACCUEIL*/
+
+
+/* QUI SUIS-JE */
+
+.qui-suis-je{
+    width: 80vw;
+    margin: 160px 0;
+
+    h2{
+        text-align: center;
+    }
+
+    .presentation{
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            width: 300px;
+        }
+
+        .intro{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 50vw;
+
+            a{
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+
+
+/* LISTE 3 PROJETS ACCUEIL*/
+
+.projets-accueil{
+    margin: 160px 0;
+
+    h2{
+        text-align: center;
+    }
+
+    .voir-plus-projets{
+        justify-content: center;
+        display: flex;
+    }
+
+}
+
+.projet-preview{
+    margin-bottom: 110px;
+    display: flex;
+    justify-content: space-between;
+
+    .description-preview{
+        margin-left: 130px;
+
+        .titres-preview{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+
+            p{
+                align-items: center;
+                display: flex;
+            }
+        }
+    }
+
+    img{
+        width: 500px;
+    }
+
+    .voir-plus{
+        justify-content: flex-end;
+        display: flex;
+        margin-top: 30px;
+    }
+
+}
