@@ -1,7 +1,7 @@
 {{ partial "head.html" . }}
 
 <header>
-    <img class="avatar-img" src="https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080" alt="">
+    <img class="avatar-img" id="avatar" src="https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080" alt="">
     <div class="info-header">
         <div class="titre-header">
             <h1>Ayline
@@ -37,7 +37,7 @@
    
     <div class="projet-preview">
         {{ with .GetPage "/projets/projet1.md" }}
-        <img class="img-projet-preview" src="{{ .Params.illustration }}" alt="">
+        <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration }}" alt=""></a>
         <div class="description-preview">
             <div class="titres-preview">
                 <h3>{{ .Params.title }}</h3>
@@ -51,7 +51,7 @@
 
     <div class="projet-preview">
         {{ with .GetPage "/projets/projet2.md" }}
-        <img class="img-projet-preview" src="{{ .Params.illustration }}" alt="">
+        <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration }}" alt="" style="width: 613px; height: 243px;"></a>
         <div class="description-preview">
             <div class="titres-preview">
                 <h3>{{ .Params.title }}</h3>
@@ -65,7 +65,7 @@
 
     <div class="projet-preview">
         {{ with .GetPage "/projets/projet3.md" }}
-        <img class="img-projet-preview" src="{{ .Params.illustration }}" alt="">
+        <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration }}" alt=""></a>
         <div class="description-preview">
             <div class="titres-preview">
                 <h3>{{ .Params.title }}</h3>

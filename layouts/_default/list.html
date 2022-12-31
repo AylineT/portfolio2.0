@@ -13,15 +13,13 @@
 </header>
 
 <article class="list-projet">
-
-  <h2>Pour l'instant juste h2</h2>
-
+  <h2><span>Pour l'instant juste h2</span></h2>
   <!-- {{ .Content }} -->
 
   {{ range.Data.Pages }}
 
   <div class="projet-preview">
-    <img class="img-projet-preview" src="{{ .Params.illustration }}" alt="">
+    <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration }}" alt=""></a>
     <div class="description-preview">
         <div class="titres-preview">
             <h3>{{ .Params.title }}</h3>
@@ -32,21 +30,10 @@
     </div>
   </div>
 
-
-
-  <!-- <article class="list-projet">
-    <h3>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </h3>
-    <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-      {{ .Date.Format "January 2, 2006" }}
-    </time>
-  </article> -->
-
-
+  {{ end }}
 </article>
 
 
-{{ end }}
+
 
 {{ partial "footer.html" . }}

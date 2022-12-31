@@ -54,10 +54,9 @@ p {
 
 /* DOT BACKGROUND */
 nav, footer, body {
-  background-image: linear-gradient(rgba(227, 198, 164, 0.199), rgba(227, 198, 164, 0.199)), url("https://static.vecteezy.com/ti/vecteur-libre/p3/5235061-bullet-journal-texture-seamless-pattern-black-dot-grid-graph-paper-template-for-notebooks-dotted-background-vectoriel.jpg"); /* The image used */
+  background-image: linear-gradient(rgba(206, 164, 115, 0.119), rgba(206, 164, 115, 0.119)), url("https://static.vecteezy.com/ti/vecteur-libre/p3/5235061-bullet-journal-texture-seamless-pattern-black-dot-grid-graph-paper-template-for-notebooks-dotted-background-vectoriel.jpg"); /* The image used */
   background-repeat: repeat;
   background-size: 65%;
-  border-radius: 0px 0px 35px 35px;
 }
 
 /* LAYOUT */

@@ -39,7 +39,7 @@
 }
 
 .projet-preview {
-  margin-bottom: 110px;
+  margin-bottom: 70px;
   display: flex;
   justify-content: space-between;
 }
@@ -56,7 +56,7 @@
   display: flex;
 }
 .projet-preview img {
-  width: 500px;
+  width: 410px;
 }
 .projet-preview .voir-plus {
   justify-content: flex-end;
