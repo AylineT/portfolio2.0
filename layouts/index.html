@@ -36,7 +36,7 @@
     <h2><span>Mes projets</span></h2>
    
     <div class="projet-preview">
-        {{ with .GetPage "/projets/projet1.md" }}
+        {{ with .GetPage "/projets/bouillotte-et-culotte.md" }}
         <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration }}" alt=""></a>
         <div class="description-preview">
             <div class="titres-preview">
@@ -50,8 +50,8 @@
     </div>
 
     <div class="projet-preview">
-        {{ with .GetPage "/projets/projet2.md" }}
-        <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration }}" alt="" style="width: 613px; height: 243px;"></a>
+        {{ with .GetPage "/projets/blog-art.md" }}
+        <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration }}" alt=""></a>
         <div class="description-preview">
             <div class="titres-preview">
                 <h3>{{ .Params.title }}</h3>
@@ -64,7 +64,7 @@
     </div>
 
     <div class="projet-preview">
-        {{ with .GetPage "/projets/projet3.md" }}
+        {{ with .GetPage "/projets/we-bike.md" }}
         <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration }}" alt=""></a>
         <div class="description-preview">
             <div class="titres-preview">

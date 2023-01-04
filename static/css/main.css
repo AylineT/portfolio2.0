@@ -95,8 +95,8 @@ p {
 }
 
 /* DOT BACKGROUND */
-nav, footer, body {
-  background-image: linear-gradient(rgba(206, 164, 115, 0.119), rgba(206, 164, 115, 0.119)), url("https://static.vecteezy.com/ti/vecteur-libre/p3/5235061-bullet-journal-texture-seamless-pattern-black-dot-grid-graph-paper-template-for-notebooks-dotted-background-vectoriel.jpg"); /* The image used */
+nav, body {
+  background-image: linear-gradient(rgba(206, 164, 115, 0.119), rgba(206, 164, 115, 0.119)), url("/images/dotsV3.png");
   background-repeat: repeat;
   background-size: 65%;
 }
@@ -129,7 +129,6 @@ footer {
   display: flex;
   justify-content: space-between;
   height: 250px;
-  background-color: #b4b4b4;
   margin-top: 100px;
   padding: 50px;
 }
@@ -143,6 +142,9 @@ footer .liens-footer {
   display: flex;
   flex-direction: column;
   align-items: end;
+}
+footer .liens-footer .logo {
+  width: 70px;
 }
 
 /* NAVIGATION */
@@ -167,14 +169,13 @@ nav .nav-items {
 
 .logo {
   width: 50px;
-  height: 50px;
 }
 
 /*ACCUEIL*/
 /* QUI SUIS-JE */
 .qui-suis-je {
   width: 80vw;
-  margin: 160px 0;
+  margin: 160px auto;
 }
 .qui-suis-je h2 {
   text-align: center;
@@ -198,7 +199,7 @@ nav .nav-items {
 
 /* LISTE 3 PROJETS ACCUEIL*/
 .projets-accueil {
-  margin: 160px 0;
+  margin: 160px auto;
 }
 .projets-accueil h2 {
   text-align: center;

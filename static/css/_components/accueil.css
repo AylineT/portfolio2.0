@@ -4,7 +4,7 @@
 /* QUI SUIS-JE */
 .qui-suis-je {
   width: 80vw;
-  margin: 160px 0;
+  margin: 160px auto;
 }
 .qui-suis-je h2 {
   text-align: center;
@@ -28,7 +28,7 @@
 
 /* LISTE 3 PROJETS ACCUEIL*/
 .projets-accueil {
-  margin: 160px 0;
+  margin: 160px auto;
 }
 .projets-accueil h2 {
   text-align: center;
