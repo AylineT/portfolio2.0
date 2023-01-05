@@ -3,6 +3,9 @@ title: "Les souvenirs d'Orphée"
 url: "/projets/les-souvenirs-d-orphee"
 date: 2020-09-03T17:27:59+07:00
 subtitle1: Groupe de 5
+type: "site web"
+
+tags: "#Graphisme, #GameDesign, #MontageVidéo"
 
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
 

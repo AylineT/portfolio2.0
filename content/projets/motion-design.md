@@ -4,6 +4,8 @@ url: "/projets/motion-design"
 date: 2020-09-03T17:27:59+07:00
 subtitle1: Groupe de 5
 
+tags: "#Graphisme, #MotionDesign, #MontageVidéo"
+
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
 
 illustration: "https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080"

@@ -3,6 +3,9 @@ title: "Blog'art"
 url: "/projets/blog-art"
 date: 2020-09-03T17:27:59+07:00
 subtitle1: Groupe de 5
+type: "site web"
+
+tags: "#DéveloppementWeb, #Rédaction, #WebDesign"
 
 description: veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui off
 

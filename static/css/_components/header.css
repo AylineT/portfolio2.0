@@ -6,7 +6,8 @@ header {
   justify-content: space-between;
 }
 header .avatar-img {
-  width: 30vw;
+  width: 25vw;
+  margin-left: 50px;
 }
 header .info-header {
   display: flex;

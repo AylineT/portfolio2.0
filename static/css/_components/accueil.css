@@ -14,7 +14,7 @@
   justify-content: space-between;
 }
 .qui-suis-je .presentation img {
-  width: 300px;
+  width: 10vw;
 }
 .qui-suis-je .presentation .intro {
   display: flex;
