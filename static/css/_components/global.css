@@ -78,7 +78,7 @@ body {
 }
 
 .cards {
-  display: flex;
+  display: block;
 }
 
 .span-projet {
@@ -105,11 +105,11 @@ body {
 .card-project figcaption {
   position: absolute;
   top: 77%;
-  width: 100%;
+  width: 90%;
   background-color: #ffffff;
   padding: 10px 25px 25px;
 }
-.card-project figcaption h3, .card-project figcaption p, .card-project figcaption a {
+.card-project figcaption h3, .card-project figcaption p {
   margin: 0 0 10px;
 }
 .card-project figcaption:before {
@@ -121,7 +121,7 @@ body {
   height: 60px;
   background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
 }
-.card-project .card-click {
+.card-project .card-hover {
   position: absolute;
   top: 0;
   bottom: 0;

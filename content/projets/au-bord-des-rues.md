@@ -1,13 +1,14 @@
 ---
-title: "Les souvenirs d'Orphée"
-url: "/projets/les-souvenirs-d-orphee"
-mois: novembre 2022
+title: "Au bord des rues"
+url: "/projets/au-bord-des-rues"
+mois: "Février 2022"
 nbrGroupe: Groupe de 5
 type: "site web"
+tags: "#DéveloppementWeb, #Rédaction, #WebDesign"
 
-tags: "#Graphisme, #GameDesign, #MontageVidéo"
+metaDescription: "Durant l'atelier Blog'art, nous avons dû créer un blog de A à Z. Grâce aux langages de programmation tels que PHP et MySQL pour la partie back, puis HTML et SASS pour la partie front. Nous nous sommes organisés pendant 3 semaines pour réaliser un blog fonctionnel et rédiger des articles sur le thème de la solidarité."
 
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
+description: ""
 
 
 illustration1: "/images/projets/blogArt1.png"

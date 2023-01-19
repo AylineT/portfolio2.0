@@ -1,16 +1,26 @@
 ---
 title: "Bouillotte et culotte"
 url: "/projets/bouillotte-et-culotte"
-date: 2020-09-03T17:27:59+07:00
+mois: avril 2022
 type: "site web"
 
 tags: "#DéveloppementWeb, #Rédaction, #WebDesign"
 
-subtitle1: Groupe de 11
+nbrGroupe: Groupe de 11
 
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
 
-illustration: "https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080"
+
+illustration1: "/images/projets/blogArt1.png"
+illustration2: "/images/projets/blogArt2.png"
+illustration3: "/images/projets/blogArt3.png"
+
+alt1: 
+alt2: 
+alt3: 
+
+link: 
+libelle: "Voir plus sur le projet !"
 ---
 
 FULL DESCRIPTION : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

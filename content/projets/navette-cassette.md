@@ -1,14 +1,11 @@
 ---
-title: "Les souvenirs d'Orphée"
-url: "/projets/les-souvenirs-d-orphee"
-mois: novembre 2022
-nbrGroupe: Groupe de 5
-type: "site web"
-
-tags: "#Graphisme, #GameDesign, #MontageVidéo"
+title: "Navette cassette"
+url: "/projets/navette-cassette"
+mois: mars 2022
+nbrGroupe: Groupe de 8
+tags: "#AudioVisuel, #Communication, #MontageVidéo"
 
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
-
 
 illustration1: "/images/projets/blogArt1.png"
 illustration2: "/images/projets/blogArt2.png"

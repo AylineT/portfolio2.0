@@ -17,13 +17,13 @@
     {{ range.Data.Pages }}
 
     <figure class="card-project">
-      <img src="{{ .Params.illustration }}" alt="">
+      <img src="{{ .Params.illustration1 }}" alt="">
       <figcaption>
         <h3>{{ .Params.title }}</h3>
-        <p>Tags1 tag1 tagatgataga tagatg3</p>
+        <p>{{ .Params.tags }}</p>
         <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a>
       </figcaption>
-      <a href="{{ .Params.url }}" class="card-click"></a>
+      <a href="{{ .Params.url }}" class="card-hover"></a>
     </figure>
 
     {{ end }}

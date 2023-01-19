@@ -1,7 +1,7 @@
 {{ partial "head.html" . }}
 
 <header>
-    <img class="avatar-img" id="avatar" src="/images/avatarV1.svg" alt="">
+    <img class="avatar-img" id="avatar" src="/images/avatarV2.svg" alt="">
     <div class="info-header">
         <div class="titre-header">
             <h1>Ayline
@@ -27,7 +27,7 @@
                 En dehors de ça, je suis passionée de musique et d’art de manière générale. waouh beau blabla</p>
             <a href="#">Mon CV</a>
         </div>
-        <img class="qui-img" src="/images/avatarV1.svg" alt="">
+        <img class="qui-img" src="/images/avatarV2.svg" alt="">
     </div>
 </section>
 
@@ -37,27 +37,27 @@
    
     <div class="projet-preview">
         {{ with .GetPage "/projets/bouillotte-et-culotte.md" }}
-        <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration }}" alt=""></a>
+        <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration1 }}" alt=""></a>
         <div class="description-preview">
             <div class="titres-preview">
                 <h3>{{ .Params.title }}</h3>
-                <p>{{ .Params.subtitle1 }}</p>
+                <p>{{ .Params.nbrGroupe }}</p>
             </div>
-            <p>{{ .Params.description }}</p>
+            <p>{{ .Params.metaDescription }}</p>
             <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a>
         </div>
         {{ end }}
     </div>
 
     <div class="projet-preview">
-        {{ with .GetPage "/projets/blog-art.md" }}
-        <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration }}" alt=""></a>
+        {{ with .GetPage "/projets/au-bord-des-rues.md" }}
+        <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration1 }}" alt=""></a>
         <div class="description-preview">
             <div class="titres-preview">
                 <h3>{{ .Params.title }}</h3>
-                <p>{{ .Params.subtitle1 }}</p>
+                <p>{{ .Params.nbrGroupe }}</p>
             </div>
-            <p>{{ .Params.description }}</p>
+            <p>{{ .Params.metaDescription }}</p>
             <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a>
         </div>
         {{ end }}
@@ -65,13 +65,13 @@
 
     <div class="projet-preview">
         {{ with .GetPage "/projets/we-bike.md" }}
-        <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration }}" alt=""></a>
+        <a href="{{ .Params.url }}"><img class="img-projet-preview"src="{{ .Params.illustration1 }}" alt=""></a>
         <div class="description-preview">
             <div class="titres-preview">
                 <h3>{{ .Params.title }}</h3>
-                <p>{{ .Params.subtitle1 }}</p>
+                <p>{{ .Params.nbrGroupe }}</p>
             </div>
-            <p>{{ .Params.description }}</p>
+            <p>{{ .Params.metaDescription }}</p>
             <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a>
         </div>
         {{ end }}
