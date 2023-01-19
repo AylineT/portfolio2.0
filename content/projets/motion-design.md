@@ -3,11 +3,11 @@ title: "Motion design"
 url: "/projets/motion-design"
 mois: décembre 2021
 nbrGroupe: Groupe de 5
-
+type: "Audiovisuel"
 tags: "#Graphisme, #MotionDesign, #MontageVidéo"
+outils: "AfterEffects, Illustrator, Premiere Pro"
 
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
-
+metaDescription: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
 
 illustration1: "/images/projets/blogArt1.png"
 illustration2: "/images/projets/blogArt2.png"

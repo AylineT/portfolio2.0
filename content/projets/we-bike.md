@@ -3,10 +3,11 @@ title: "We Bike"
 url: "/projets/we-bike"
 mois: octobre 2022
 nbrGroupe: Groupe de 5
+type: "Maquette d'application"
 tags: "#WebDesign, #UX, #UI"
+outils: "Figma, Trello"
 
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
-
+metaDescription: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
 
 illustration1: "/images/projets/blogArt1.png"
 illustration2: "/images/projets/blogArt2.png"

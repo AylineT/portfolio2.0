@@ -7,6 +7,8 @@ footer {
   height: 250px;
   margin-top: 100px;
   padding: 50px;
+  box-shadow: 0px 15px 20px 10px grey;
+  border-radius: 35px 35px 0px 0px;
 }
 footer .pub-footer {
   display: flex;

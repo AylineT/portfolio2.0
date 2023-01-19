@@ -1,11 +1,11 @@
 ---
 title: "Les souvenirs d'Orphée"
 url: "/projets/les-souvenirs-d-orphee"
-mois: novembre 2022
+mois: Novembre 2022
 nbrGroupe: Groupe de 5
-type: "site web"
-
+type: "Jeu vidéo"
 tags: "#Graphisme, #GameDesign, #MontageVidéo"
+outils: "Unity, Github, Visual Studio Code, Trello, Illustrator, Premiere Pro"
 
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
 

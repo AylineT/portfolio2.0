@@ -186,6 +186,8 @@ footer {
   height: 250px;
   margin-top: 100px;
   padding: 50px;
+  box-shadow: 0px 15px 20px 10px grey;
+  border-radius: 35px 35px 0px 0px;
 }
 footer .pub-footer {
   display: flex;
@@ -288,4 +290,34 @@ nav .nav-items {
   justify-content: flex-end;
   display: flex;
   margin-top: 30px;
+}
+
+.single h2 {
+  display: flex;
+  justify-content: end;
+}
+.single a {
+  display: flex;
+  justify-content: center;
+}
+.single .single-projet {
+  display: flex;
+  margin: 150px 0 60px 0;
+}
+.single .single-projet img {
+  width: 45vw;
+}
+.single .single-projet .single-projet-notes {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  justify-content: space-between;
+}
+.single .single-projet .single-projet-notes .single-infos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vw;
+}
+.single .single-projet .single-projet-notes .single-description {
+  margin-bottom: 2vw;
 }/*# sourceMappingURL=main.css.map */

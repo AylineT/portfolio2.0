@@ -1,2 +1,31 @@
 @import url("https://use.typekit.net/ggb0ndc.css");
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");/*# sourceMappingURL=single.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.single h2 {
+  display: flex;
+  justify-content: end;
+}
+.single a {
+  display: flex;
+  justify-content: center;
+}
+.single .single-projet {
+  display: flex;
+  margin: 150px 0 60px 0;
+}
+.single .single-projet img {
+  width: 45vw;
+}
+.single .single-projet .single-projet-notes {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  justify-content: space-between;
+}
+.single .single-projet .single-projet-notes .single-infos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vw;
+}
+.single .single-projet .single-projet-notes .single-description {
+  margin-bottom: 2vw;
+}/*# sourceMappingURL=single.css.map */

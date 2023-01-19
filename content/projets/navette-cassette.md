@@ -3,7 +3,9 @@ title: "Navette cassette"
 url: "/projets/navette-cassette"
 mois: mars 2022
 nbrGroupe: Groupe de 8
+type: "Audiovisuel"
 tags: "#AudioVisuel, #Communication, #MontageVidéo"
+outils: "Illustrator, Premiere Pro, Instagram, Trello"
 
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
 

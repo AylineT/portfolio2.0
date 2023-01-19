@@ -2,3 +2,43 @@
 
 // SINGLE //
 
+.single{
+
+    h2{
+        display: flex;
+        justify-content: end;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+    }
+
+    .single-projet{
+        display: flex;
+        margin: 150px 0 60px 0;
+    
+        img{
+            width: 45vw;
+        }
+    
+        .single-projet-notes{
+            display: flex;
+            flex-direction: column;
+            margin-left: 5vw;
+            justify-content: space-between;
+    
+            .single-infos{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 2vw;
+            }
+
+            .single-description{
+                margin-bottom: 2vw;
+            }
+        }
+    }
+
+}
+
