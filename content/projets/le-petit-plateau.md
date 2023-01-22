@@ -1,6 +1,7 @@
 ---
 title: "Le petit plateau"
 url: "/projets/le-petit-plateau"
+ordre: 8
 mois: Octobre 2021
 nbrGroupe: Groupe de 5
 type: "Refont de site web"

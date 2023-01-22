@@ -14,14 +14,14 @@
 
   <section class="cards">
 
-    {{ range.Data.Pages }}
+    {{ range (.Pages.ByParam "ordre") }}
 
     <figure class="card-project">
       <img src="{{ .Params.illustration1 }}" alt="">
       <figcaption>
         <h3>{{ .Params.title }}</h3>
         <p>{{ .Params.tags }}</p>
-        <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a>
+        <!-- <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a> -->
       </figcaption>
       <a href="{{ .Params.url }}" class="card-hover"></a>
     </figure>

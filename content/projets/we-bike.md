@@ -1,7 +1,8 @@
 ---
 title: "We Bike"
 url: "/projets/we-bike"
-mois: octobre 2022
+ordre: 3
+mois: Octobre 2022
 nbrGroupe: Groupe de 5
 type: "Maquette d'application"
 tags: "#WebDesign, #UX, #UI"
@@ -9,16 +10,16 @@ outils: "Figma, Trello"
 
 metaDescription: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
 
-illustration1: "/images/projets/blogArt1.png"
-illustration2: "/images/projets/blogArt2.png"
-illustration3: "/images/projets/blogArt3.png"
+illustration1: "/images/projets/webike/webikeAccueil.png"
+illustration2: "/images/projets/webike/webike2.png"
+illustration3: "/images/projets/webike/webike1.png"
 
-alt1: 
-alt2: 
-alt3: 
+alt1: Présentation de l'application WeBike
+alt2: Mode itinéraire l'application WeBike
+alt3: Mode récupérer le vélo l'application WeBike
 
-link: 
-libelle: "Voir plus sur le projet !"
+link: https://www.behance.net/gallery/157376699/WEBIKE
+libelle: "Voir la page behance du projet !"
 
 ---
 

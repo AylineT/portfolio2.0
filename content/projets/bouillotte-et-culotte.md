@@ -1,6 +1,7 @@
 ---
 title: "Bouillotte et culotte"
 url: "/projets/bouillotte-et-culotte"
+ordre: 4
 mois: Avril 2022
 type: "Site web"
 tags: "#DéveloppementWeb, #Rédaction, #WebDesign"
@@ -14,13 +15,13 @@ description: |
     Nous avons fait de nombreuses recherches sur internet et avons récolté une vingtaine de témoignages auprès de femmes victimes d'endométriose. Entre les errances diagnostiques, les symptômes divers et le manque de reconnaissance de la maladie, nous avons mis en place un site web qui regroupe tout types d'informations et de conseils pour celles et ceux qui se posent des questions.
     J'ai participé à la récolte de témoignages, à la réalisation des maquettes du site et à une partie de son intégration HTML, SASS et Bootsrap.
 
-illustration1: "/images/projets/blogArt1.png"
-illustration2: "/images/projets/blogArt2.png"
-illustration3: "/images/projets/blogArt3.png"
+illustration1: "/images/projets/b&c/b&cAccueil.png"
+illustration2: "/images/projets/b&c/b&cPage1.png"
+illustration3: "/images/projets/b&c/b&cPage2.png"
 
-alt1: 
-alt2: 
-alt3: 
+alt1: Page d'accueil du site Bouillotte et culotte
+alt2: Page écomprendre la maladie" du site Bouillotte et culotte
+alt3: Page témoignages du site Bouillotte et culotte
 
 link: "https://www.bouillotteetculotte.fr/"
 libelle: "Visiter le site Bouillote et Culotte !"
