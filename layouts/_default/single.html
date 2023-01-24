@@ -37,7 +37,14 @@
 
     </div>
 
-    <a href="{{ .Params.link }}">{{ .Params.libelle }}</a>
+    <button>
+        <a href="{{ .Params.link }}">{{ .Params.libelle }}</a>
+    </button>
+
+    <div class="following-projects">
+        <a href="{{ .Params.previous }}">{{ .Params.previousLibelle }}</a>
+        <a href="{{ .Params.next }}">{{ .Params.nextLibelle }}</a>
+    </div>
 
 </section>
 

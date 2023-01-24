@@ -4,14 +4,29 @@
 
 .single{
 
+    h1{
+        line-height: 1em;
+    }
+
     h2{
         display: flex;
         justify-content: end;
     }
 
-    a{
+    button{
         display: flex;
         justify-content: center;
+    }
+
+    .following-projects{
+        display: flex;
+        justify-content: space-between;
+
+        :first-child:before{
+            background-image: 
+            linear-gradient( rgba(206, 164, 115, 0.119), rgba(206, 164, 115, 0.119)),
+            url("/images/rightarrow.svg"); 
+        }
     }
 
     .single-projet{

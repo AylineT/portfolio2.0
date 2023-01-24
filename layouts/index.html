@@ -1,13 +1,13 @@
 {{ partial "head.html" . }}
 
 <header>
-    <img class="avatar-img" id="avatar" src="/images/avatarV2.svg" alt="">
+    <img class="avatar-img" id="avatar" src="http://placekitten.com/200/300" alt="">
     <div class="info-header">
         <div class="titre-header">
             <h1>Ayline
                 <span>Travers</span>
             </h1> 
-            <h2><span>{{ .Params.subtitle }}</span></h2>
+            <h2><span>Développeuse Web & Designeuse</span></h2>
         </div>
         <div class="contact">
             <ul>
@@ -41,10 +41,10 @@
         <div class="description-preview">
             <div class="titres-preview">
                 <h3>{{ .Params.title }}</h3>
-                <p>{{ .Params.nbrGroupe }}</p>
+                <p>{{ .Params.mois }}</p>
             </div>
             <p>{{ .Params.metaDescription }}</p>
-            <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a>
+            <button class="voir-plus"><a href="{{ .Params.url }}">Voir plus</a></button>
         </div>
         {{ end }}
     </div>
@@ -55,10 +55,10 @@
         <div class="description-preview">
             <div class="titres-preview">
                 <h3>{{ .Params.title }}</h3>
-                <p>{{ .Params.nbrGroupe }}</p>
+                <p>{{ .Params.mois }}</p>
             </div>
             <p>{{ .Params.metaDescription }}</p>
-            <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a>
+            <button class="voir-plus"><a href="{{ .Params.url }}">Voir plus</a></button>
         </div>
         {{ end }}
     </div>
@@ -69,15 +69,17 @@
         <div class="description-preview">
             <div class="titres-preview">
                 <h3>{{ .Params.title }}</h3>
-                <p>{{ .Params.nbrGroupe }}</p>
+                <p>{{ .Params.mois }}</p>
             </div>
             <p>{{ .Params.metaDescription }}</p>
-            <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a>
+            <button class="voir-plus"><a href="{{ .Params.url }}">Voir plus</a></button>
         </div>
         {{ end }}
     </div>
 
-    <a href="/projets/" class="voir-plus-projets">Voir plus de projets</a>
+    <button  class="voir-plus-projets">
+        <a href="/projets/">Voir tous les projets</a>
+    </button>
 
 </section>
 

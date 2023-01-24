@@ -22,4 +22,10 @@ alt3: Générique du motion design type Star Wars
 
 link: "https://www.youtube.com/watch?v=YHK4hOHdaEM"
 libelle: "Voir le motion design"
+
+next: /projets/le-petit-plateau
+nextLibelle: Le petit plateau
+previous: /projets/au-bord-des-rues
+previousLibelle: Au bord des rues
+
 ---

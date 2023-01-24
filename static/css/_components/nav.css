@@ -19,6 +19,16 @@ nav .nav-items {
   width: 15vw;
   align-items: center;
 }
+nav a {
+  text-decoration: none;
+}
+nav a span {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2) 100%, rgba(0, 0, 0, 0.2) 100%);
+  background-position: 0 45px;
+  background-size: 100% 5%;
+  transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  background-repeat: no-repeat;
+}
 
 .logo {
   width: 50px;

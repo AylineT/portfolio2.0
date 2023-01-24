@@ -1,0 +1,83 @@
+@import url("_components/variables");
+
+/* PAGE LISTE PROJET */
+  
+.list-projet{
+    margin: 160px 0;
+
+    h2{
+        text-align: center;
+    }
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.span-projet{
+    top: -119px;
+    right: 74px;
+}
+
+.card-project{
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 450px;
+    width: 100%;
+    height: 280px;
+    text-align: left;
+    box-shadow: 5px 5px 19px 0px grey;
+    border-radius: 20px;
+
+    * {
+        // -webkit-box-sizing: border-box;
+        // box-sizing: border-box;
+        -webkit-transition: all 0.35s ease;
+        transition: all 0.35s ease;
+    }
+      
+    img {
+        max-width: 100%;
+        vertical-align: top;
+        
+    }
+
+    figcaption {
+        position: absolute;
+        top: calc(75%);
+        width: 90%;
+        background-color: #6a6a6ad6;
+        padding: 10px 25px 25px;
+        background-image: 
+        linear-gradient( rgba(206, 164, 115, 0.119), rgba(206, 164, 115, 0.119)),
+        url("/images/dotsV3.png"); 
+        background-size: auto;
+        box-shadow: 0px 15px 20px 10px grey;
+        z-index: 0;
+
+        h3, p {
+            margin: 0 -10px 10px;
+            z-index: 1;
+        }
+    }
+     
+    .card-hover {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+    }
+    
+}
+
+.card-project:hover figcaption, .card-project.hover figcaption {
+    top: 140px;
+}
+
+

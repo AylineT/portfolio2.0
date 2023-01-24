@@ -1,12 +1,22 @@
 @import url("https://use.typekit.net/ggb0ndc.css");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.single h1 {
+  line-height: 1em;
+}
 .single h2 {
   display: flex;
   justify-content: end;
 }
-.single a {
+.single button {
   display: flex;
   justify-content: center;
+}
+.single .following-projects {
+  display: flex;
+  justify-content: space-between;
+}
+.single .following-projects :first-child:before {
+  background-image: linear-gradient(rgba(206, 164, 115, 0.119), rgba(206, 164, 115, 0.119)), url("/images/rightarrow.svg");
 }
 .single .single-projet {
   display: flex;

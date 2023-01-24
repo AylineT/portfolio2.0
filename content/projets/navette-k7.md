@@ -23,6 +23,12 @@ alt3: Extrait de l'émission avec l'invité
 link: "https://www.youtube.com/watch?v=RyQa8-OePlA"
 libelle: "Voir l'émission Navette K7"
 
+next: /projets/au-bord-des-rues
+nextLibelle: Au bord des rues
+previous: /projets/bouillotte-et-culotte
+previousLibelle: Bouillotte et culotte
+
+
 # <iframe width="560" height="315" src="https://www.youtube.com/embed/RyQa8-OePlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---

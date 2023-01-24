@@ -5,10 +5,12 @@ ordre: 3
 mois: Octobre 2022
 nbrGroupe: Groupe de 5
 type: "Maquette d'application"
-tags: "#WebDesign, #UX, #UI"
+tags: "#WebDesign, #UserExperience, #UserInterface"
 outils: "Figma, Trello"
 
-metaDescription: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod trcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen
+metaDescription: L'objectif de cet atelier était de refaire l'interface de l'application de vélos en libre service de la ville de Bordeaux. La première semaine était consacrée à l'UX, nous avons réfléchi aux fonctionnalités à mettre en place et celles à améliorer en faisant une première version de maquette. Pendant la deuxième semaine, nous avons défini une charte graphique et pris en compte les retours des utilisateurs pour répondre à leurs attentes et finir la maquette.
+
+description: "J'ai pu faire des tests utilisateurs aux différents phases de production et réaliser les diverses pages de l'application, tout en respectant les règles d'accessibilité pour rendre l'interface utilisable pour tous."
 
 illustration1: "/images/projets/webike/webikeAccueil.png"
 illustration2: "/images/projets/webike/webike2.png"
@@ -21,9 +23,9 @@ alt3: Mode récupérer le vélo l'application WeBike
 link: https://www.behance.net/gallery/157376699/WEBIKE
 libelle: "Voir la page behance du projet !"
 
+next: /projets/bouillotte-et-culotte
+nextLibelle: Bouillotte et culotte
+previous: /projets/galerie-immaculee
+previousLibelle: Galerie immaculée
+
 ---
-
-FULL DESCRIPTION : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-ET ON VERRA APRES POUR LA PAGE INDIVIDUELLE
