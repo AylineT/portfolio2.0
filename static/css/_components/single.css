@@ -9,7 +9,7 @@
 }
 .single button {
   display: flex;
-  justify-content: center;
+  margin: 130px auto;
 }
 .single .following-projects {
   display: flex;

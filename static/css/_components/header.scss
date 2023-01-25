@@ -40,7 +40,15 @@ header{
     ul{
         list-style-type: none;
     }
-    
+
+    li{
+        margin-top: 5px;
+        img{
+            width: 35px;
+            vertical-align: text-bottom;
+            margin-left: 20px;
+        }
+    }
 }
 
 

@@ -44,6 +44,14 @@ header .info-header h1 span {
 .contact ul {
   list-style-type: none;
 }
+.contact li {
+  margin-top: 5px;
+}
+.contact li img {
+  width: 35px;
+  vertical-align: text-bottom;
+  margin-left: 20px;
+}
 
 /* GENERAL */
 h1, h2, h3 {
@@ -170,26 +178,35 @@ body {
 
 /* FOOTER */
 footer {
-  display: flex;
-  justify-content: space-between;
-  height: 250px;
   margin-top: 100px;
-  padding: 50px;
+  padding: 50px 50px 30px 50px;
   box-shadow: 0px 15px 20px 10px grey;
   border-radius: 35px 35px 0px 0px;
 }
-footer .pub-footer {
+footer .infos-footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer .infos-footer .pub-footer {
   display: flex;
   width: 40vw;
   flex-direction: column;
-  justify-content: space-between;
 }
-footer .liens-footer {
+footer .infos-footer .pub-footer :first-child {
+  margin-bottom: 30px;
+}
+footer .infos-footer .liens-footer {
   display: flex;
   flex-direction: column;
   align-items: end;
 }
-footer .liens-footer .logo {
+footer .last {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+footer .last .logo {
   width: 70px;
 }
 
@@ -198,7 +215,7 @@ nav {
   z-index: 100;
   display: flex;
   justify-content: space-between;
-  padding: 10px 60px;
+  padding: 8px 60px;
   background-color: gray;
   position: fixed;
   top: 0;
@@ -224,7 +241,7 @@ nav a span {
 }
 
 .logo {
-  width: 50px;
+  width: 60px;
 }
 
 /*ACCUEIL*/
@@ -301,7 +318,7 @@ nav a span {
 }
 .single button {
   display: flex;
-  justify-content: center;
+  margin: 130px auto;
 }
 .single .following-projects {
   display: flex;

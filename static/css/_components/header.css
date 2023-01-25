@@ -30,4 +30,12 @@ header .info-header h1 span {
 }
 .contact ul {
   list-style-type: none;
+}
+.contact li {
+  margin-top: 5px;
+}
+.contact li img {
+  width: 35px;
+  vertical-align: text-bottom;
+  margin-left: 20px;
 }/*# sourceMappingURL=header.css.map */
