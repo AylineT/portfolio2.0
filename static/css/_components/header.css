@@ -7,7 +7,8 @@ header {
 }
 header .avatar-img {
   width: 25vw;
-  margin-left: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 header .info-header {
   display: flex;
@@ -22,6 +23,9 @@ header .info-header .titre-header {
 header .info-header h1 span {
   top: -109px;
   right: 15%;
+}
+header .info-header h2 {
+  margin-bottom: 50px;
 }
 
 .contact {

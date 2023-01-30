@@ -20,7 +20,8 @@ header {
 }
 header .avatar-img {
   width: 25vw;
-  margin-left: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 header .info-header {
   display: flex;
@@ -35,6 +36,9 @@ header .info-header .titre-header {
 header .info-header h1 span {
   top: -109px;
   right: 15%;
+}
+header .info-header h2 {
+  margin-bottom: 50px;
 }
 
 .contact {
@@ -348,27 +352,36 @@ nav a span {
 /*ACCUEIL*/
 /* QUI SUIS-JE */
 .qui-suis-je {
-  width: 80vw;
-  margin: 160px auto;
+  margin: 160px 0;
 }
-.qui-suis-je h2 {
-  text-align: center;
+.qui-suis-je img {
+  width: 25vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transform: scaleX(-1);
 }
 .qui-suis-je .presentation {
   display: flex;
   justify-content: space-between;
-}
-.qui-suis-je .presentation img {
-  width: 10vw;
+  flex-direction: row-reverse;
 }
 .qui-suis-je .presentation .intro {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50vw;
+  width: 55vw;
+}
+.qui-suis-je .presentation .intro h2 {
+  text-align: end;
+  margin-bottom: 50px;
 }
 .qui-suis-je .presentation .intro a {
   margin-top: 30px;
+}
+.qui-suis-je .presentation .intro a img {
+  width: 35px;
+  vertical-align: text-bottom;
+  margin-right: 20px;
 }
 
 /* LISTE 3 PROJETS ACCUEIL*/
@@ -425,6 +438,22 @@ nav a span {
   }
   .projet-preview .description-preview .titres-preview {
     margin: 20px 0 40px 0px;
+  }
+  .qui-suis-je {
+    margin: 100px 0;
+  }
+  .qui-suis-je .presentation {
+    flex-direction: column-reverse;
+  }
+  .qui-suis-je .presentation .intro {
+    width: 100vw;
+  }
+  .qui-suis-je .presentation .intro h2 {
+    text-align: center;
+  }
+  .qui-suis-je .presentation .qui-img {
+    width: 70vw;
+    margin: 30px auto 0;
   }
 }
 .single h1 {

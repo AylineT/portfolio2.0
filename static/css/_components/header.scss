@@ -8,7 +8,7 @@ header{
 
     .avatar-img{
         width: 25vw;
-        margin-left: 50px;
+        object-fit: cover;
     }
 
     .info-header{
@@ -28,6 +28,10 @@ header{
                 top: -109px; 
                 right: 15%;
             }
+        }
+
+        h2{
+            margin-bottom: 50px;
         }
     
     }    
