@@ -73,6 +73,11 @@ button:hover, button:focus {
   box-shadow: none;
 }
 
+@media screen and (max-width: 48rem) {
+  a {
+    font-size: 1.25rem;
+  }
+}
 /* DOT BACKGROUND */
 nav, body {
   background-image: linear-gradient(rgba(206, 164, 115, 0.119), rgba(206, 164, 115, 0.119)), url("/images/dotsV3.png");

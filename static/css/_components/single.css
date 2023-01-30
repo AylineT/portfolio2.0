@@ -67,6 +67,7 @@
   }
   .single .following-projects a {
     display: block;
+    width: 45%;
   }
   .single .following-projects :first-child {
     text-align: start;

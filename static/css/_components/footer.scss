@@ -40,4 +40,54 @@ footer{
             width: 70px;
         }
     }
+
+
+
+    // RESPONSIVE //
+
+    @media screen and (max-width: 48rem){
+
+        padding: 20px 15px;
+
+        .infos-footer{
+            display: block;
+
+            .pub-footer{
+                width: 100%;
+            }
+
+            .liens-footer{
+
+                margin-top: 20px;
+                align-items: start;
+
+                .contact{
+
+                    ul{
+                        padding: 0;
+
+                        li{
+                            margin-top: 15px;
+                        }
+                    }
+                    
+                    a{
+                        display: flex;
+                        flex-direction: row-reverse;
+                        justify-content: flex-end;
+                        align-items: center;
+
+                        img{
+                            margin: 0 10px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .last{
+            width: 100%;
+        }
+
+    }
 }

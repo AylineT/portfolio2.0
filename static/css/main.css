@@ -127,6 +127,11 @@ button:hover, button:focus {
   box-shadow: none;
 }
 
+@media screen and (max-width: 48rem) {
+  a {
+    font-size: 1.25rem;
+  }
+}
 /* DOT BACKGROUND */
 nav, body {
   background-image: linear-gradient(rgba(206, 164, 115, 0.119), rgba(206, 164, 115, 0.119)), url("/images/dotsV3.png");
@@ -211,9 +216,43 @@ footer .last {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  font-size: 8px;
 }
 footer .last .logo {
   width: 70px;
+}
+@media screen and (max-width: 48rem) {
+  footer {
+    padding: 20px 15px;
+  }
+  footer .infos-footer {
+    display: block;
+  }
+  footer .infos-footer .pub-footer {
+    width: 100%;
+  }
+  footer .infos-footer .liens-footer {
+    margin-top: 20px;
+    align-items: start;
+  }
+  footer .infos-footer .liens-footer .contact ul {
+    padding: 0;
+  }
+  footer .infos-footer .liens-footer .contact ul li {
+    margin-top: 15px;
+  }
+  footer .infos-footer .liens-footer .contact a {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  footer .infos-footer .liens-footer .contact a img {
+    margin: 0 10px 0 0;
+  }
+  footer .last {
+    width: 100%;
+  }
 }
 
 /* NAVIGATION */
@@ -401,6 +440,7 @@ nav a span {
   }
   .single .following-projects a {
     display: block;
+    width: 45%;
   }
   .single .following-projects :first-child {
     text-align: start;

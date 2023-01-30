@@ -102,6 +102,16 @@ button:hover, button:focus{
     box-shadow: none;
 }
 
+
+@media screen and (max-width: 48rem) {
+
+    a{
+        font-size: $p;
+    }
+}
+
+
+
 /* DOT BACKGROUND */
 
 nav, body{
