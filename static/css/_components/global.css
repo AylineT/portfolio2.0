@@ -46,6 +46,7 @@ p, a {
 a {
   text-decoration: underline;
   font-size: 1.5rem;
+  position: relative;
 }
 
 p {
@@ -67,7 +68,7 @@ button a {
 }
 
 button:hover, button:focus {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
   background-size: cover;
   box-shadow: none;
 }
@@ -120,4 +121,10 @@ body {
 }
 .carousel .carousel-button--selected, .carousel .carousel-button:hover {
   background: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 48rem) {
+  .content {
+    margin: 50px 10px 0px 10px;
+  }
 }/*# sourceMappingURL=global.css.map */

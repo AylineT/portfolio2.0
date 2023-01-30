@@ -57,6 +57,24 @@ p, a{
 a{
     text-decoration: underline;
     font-size: $a;
+    position: relative;
+
+    // ::after{
+    //     position: absolute;
+    //     content: '';
+    //     background-color: #000000;
+    //     bottom: 0.5rem;
+    //     left: 0.5rem;
+    //     width: 2px;
+    //     height: 2px;
+    //     opacity: 1;
+    //     transition: .3s;
+
+    //     :hover{
+    //         width: 100%;
+    //         opacity: 1;
+    //     }
+    // }
 }
 
 p{
@@ -79,7 +97,7 @@ button{
 }
 
 button:hover, button:focus{
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     background-size: cover;
     box-shadow: none;
 }
@@ -145,4 +163,18 @@ body{
         background: rgba(255, 255, 255, 0.6);
     }
 
+}
+
+
+// RESPONSIVE //
+
+@media screen and (max-width: 48rem) {
+
+    // *{
+    //     box-sizing: border-box;
+    // }
+    
+    .content{
+        margin: 50px 10px 0px 10px;
+    }
 }

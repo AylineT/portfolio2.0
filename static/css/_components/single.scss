@@ -2,6 +2,7 @@
 
 // SINGLE //
 
+
 .single{
 
     h1{
@@ -21,15 +22,15 @@
     .following-projects{
         display: flex;
         justify-content: space-between;
-
-        :first-child:before{
-            background-image: 
-            linear-gradient( rgba(206, 164, 115, 0.119), rgba(206, 164, 115, 0.119)),
-            url("/images/rightarrow.svg"); 
+        
+        img{
+            width: 35px;
+            vertical-align: text-bottom;
+            padding: 0 20px;
         }
     }
 
-    .single-projet{
+    .single-project{
         display: flex;
         margin: 150px 0 60px 0;
     
@@ -37,7 +38,7 @@
             width: 45vw;
         }
     
-        .single-projet-notes{
+        .single-project-notes{
             display: flex;
             flex-direction: column;
             margin-left: 5vw;
@@ -55,5 +56,59 @@
         }
     }
 
+    @media screen and (max-width: 48rem){
+
+        .single-project{
+            display: block;
+            margin: 10vw 0;
+
+            img{
+                width: 100%;
+                margin-bottom: 7vw;
+            }
+
+            .single-project-notes{
+                margin: 0;
+
+                .single-infos, .single-description{
+                    margin-bottom: 7vw;
+                }
+
+            }
+        }
+
+        button{
+            margin: 0;
+        }
+
+        .following-projects{
+
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            margin-top: 12vw;
+
+            a{
+                display: block;
+            }
+
+            :first-child{
+                text-align: start;
+            }
+
+            :last-child{
+                text-align: end;
+            }
+
+            img{
+                width: 7vw;
+                vertical-align: text-bottom;
+                padding: 0 10px;
+            }
+        }
+    }
+
 }
+
+
 

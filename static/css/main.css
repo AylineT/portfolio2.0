@@ -100,6 +100,7 @@ p, a {
 a {
   text-decoration: underline;
   font-size: 1.5rem;
+  position: relative;
 }
 
 p {
@@ -121,7 +122,7 @@ button a {
 }
 
 button:hover, button:focus {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
   background-size: cover;
   box-shadow: none;
 }
@@ -176,6 +177,11 @@ body {
   background: rgba(255, 255, 255, 0.6);
 }
 
+@media screen and (max-width: 48rem) {
+  .content {
+    margin: 50px 10px 0px 10px;
+  }
+}
 /* FOOTER */
 footer {
   margin-top: 100px;
@@ -244,6 +250,25 @@ nav a span {
   width: 60px;
 }
 
+@media screen and (max-width: 48rem) {
+  .logo {
+    width: 60px;
+  }
+  nav {
+    padding: 5px 30px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    position: fixed;
+    top: 0;
+  }
+  nav .nav-items {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+  }
+}
 /*ACCUEIL*/
 /* QUI SUIS-JE */
 .qui-suis-je {
@@ -324,29 +349,70 @@ nav a span {
   display: flex;
   justify-content: space-between;
 }
-.single .following-projects :first-child:before {
-  background-image: linear-gradient(rgba(206, 164, 115, 0.119), rgba(206, 164, 115, 0.119)), url("/images/rightarrow.svg");
+.single .following-projects img {
+  width: 35px;
+  vertical-align: text-bottom;
+  padding: 0 20px;
 }
-.single .single-projet {
+.single .single-project {
   display: flex;
   margin: 150px 0 60px 0;
 }
-.single .single-projet img {
+.single .single-project img {
   width: 45vw;
 }
-.single .single-projet .single-projet-notes {
+.single .single-project .single-project-notes {
   display: flex;
   flex-direction: column;
   margin-left: 5vw;
   justify-content: space-between;
 }
-.single .single-projet .single-projet-notes .single-infos {
+.single .single-project .single-project-notes .single-infos {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2vw;
 }
-.single .single-projet .single-projet-notes .single-description {
+.single .single-project .single-project-notes .single-description {
   margin-bottom: 2vw;
+}
+@media screen and (max-width: 48rem) {
+  .single .single-project {
+    display: block;
+    margin: 10vw 0;
+  }
+  .single .single-project img {
+    width: 100%;
+    margin-bottom: 7vw;
+  }
+  .single .single-project .single-project-notes {
+    margin: 0;
+  }
+  .single .single-project .single-project-notes .single-infos, .single .single-project .single-project-notes .single-description {
+    margin-bottom: 7vw;
+  }
+  .single button {
+    margin: 0;
+  }
+  .single .following-projects {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 12vw;
+  }
+  .single .following-projects a {
+    display: block;
+  }
+  .single .following-projects :first-child {
+    text-align: start;
+  }
+  .single .following-projects :last-child {
+    text-align: end;
+  }
+  .single .following-projects img {
+    width: 7vw;
+    vertical-align: text-bottom;
+    padding: 0 10px;
+  }
 }
 
 /* PAGE LISTE PROJET */

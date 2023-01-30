@@ -41,15 +41,26 @@ nav {
 }
 
   
-//   @media screen and (max-width: 48rem) {
-//     .site-nav,
-//     .main-menu {
-//       flex-direction: column;
-//     }
+@media screen and (max-width: 48rem) {
+    
+
+    .logo {
+        width: 60px;
+    }
+
+    nav{
+        padding: 5px 30px;
+        width: max-content;
+        position: fixed;
+        top: 0;
+
+        .nav-items{
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            align-items: center;
+        }
+    }
   
-//     .site-nav a {
-//       padding: 0.5rem;
-//       padding-left: 0;
-//     }
-// }
+}
 
