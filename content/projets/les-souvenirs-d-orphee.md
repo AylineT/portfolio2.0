@@ -27,9 +27,8 @@ link2: https://souvenirsdorphee.netlify.app/
 
 next: /projets/galerie-immaculee
 nextLibelle: Galerie immaculée
-previous: 
-previousLibelle: ""
-
+previous: "/projets/le-petit-plateau"
+previousLibelle: Le petit plateau
 
 ---
 

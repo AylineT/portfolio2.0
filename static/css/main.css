@@ -131,6 +131,20 @@ button:hover, button:focus {
   a {
     font-size: 1.25rem;
   }
+  h1 {
+    font-size: 4.3rem;
+  }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 45px;
+  }
+  h2 span {
+    background-image: linear-gradient(to right, rgba(17, 168, 228, 0.2) 100%, rgba(17, 168, 228, 0.2) 100%);
+    background-position: 0 45px;
+    background-size: 110% 30%;
+    transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    background-repeat: no-repeat;
+  }
 }
 /* DOT BACKGROUND */
 nav, body {
@@ -184,7 +198,7 @@ body {
 
 @media screen and (max-width: 48rem) {
   .content {
-    margin: 50px 10px 0px 10px;
+    margin: 70px 15px 0px 15px;
   }
 }
 /* FOOTER */
@@ -216,7 +230,6 @@ footer .last {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  font-size: 8px;
 }
 footer .last .logo {
   width: 70px;
@@ -295,16 +308,14 @@ nav a span {
   }
   nav {
     padding: 5px 30px;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+    width: 100%;
     position: fixed;
     top: 0;
   }
   nav .nav-items {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 55%;
     align-items: center;
   }
 }

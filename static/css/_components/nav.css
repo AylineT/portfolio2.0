@@ -40,16 +40,14 @@ nav a span {
   }
   nav {
     padding: 5px 30px;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+    width: 100%;
     position: fixed;
     top: 0;
   }
   nav .nav-items {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 55%;
     align-items: center;
   }
 }/*# sourceMappingURL=nav.css.map */

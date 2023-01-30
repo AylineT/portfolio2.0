@@ -77,6 +77,13 @@ button:hover, button:focus {
   a {
     font-size: 1.25rem;
   }
+  h1 {
+    font-size: 4.3rem;
+  }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 45px;
+  }
 }
 /* DOT BACKGROUND */
 nav, body {
@@ -130,6 +137,6 @@ body {
 
 @media screen and (max-width: 48rem) {
   .content {
-    margin: 50px 10px 0px 10px;
+    margin: 70px 15px 0px 15px;
   }
 }/*# sourceMappingURL=global.css.map */

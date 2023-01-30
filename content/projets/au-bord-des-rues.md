@@ -23,9 +23,8 @@ alt3:
 link: "https://www.behance.net/gallery/138990515/Au-bord-des-rues"
 libelle: "Visiter la page behance du projet"
 
-next: /projets/navette-k7
-nextLibelle: Navette K7
-previous: /projets/motion-design
-previousLibelle: Motion design
-
+next: /projets/motion-design
+nextLibelle: Motion Design
+previous: /projets/navette-k7
+previousLibelle: Navette K7
 ---

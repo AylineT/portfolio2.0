@@ -103,10 +103,24 @@ button:hover, button:focus{
 }
 
 
+
+//RESPONSIVE//
+
+
 @media screen and (max-width: 48rem) {
 
     a{
         font-size: $p;
+    }
+
+    h1{
+        font-size: 4.3rem;
+
+    }
+
+    h2{
+        font-size: 2rem;
+        margin-bottom: 45px;
     }
 }
 
@@ -185,6 +199,6 @@ body{
     // }
     
     .content{
-        margin: 50px 10px 0px 10px;
+        margin: 70px 15px 0px 15px;
     }
 }

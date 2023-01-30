@@ -29,8 +29,8 @@ alt3: Mockup mobile de la refont Le petit Plateau
 link: "https://www.figma.com/proto/DqyKZQM2T2808GhZTQbRVQ/Jalan---Le-petit-plateau?kind=&node-id=504%3A282&page-id=416%3A2&scaling=contain&show-proto-sidebar=1&starting-point-node-id=504%3A282&viewport=241%2C48%2C0.17"
 libelle: "Voir plus sur le projet !"
 
-next: 
-nextLibelle: 
+next: /projets/les-souvenirs-d-orphee
+nextLibelle: Les souvenirs d'Orphée
 previous: /projets/motion-design
 previousLibelle: Motion Design
 
