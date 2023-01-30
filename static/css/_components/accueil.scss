@@ -85,3 +85,26 @@
     }
 
 }
+
+@media screen and (max-width: 48rem){
+
+    .projets-accueil{
+        margin: 100px 0;
+    }
+
+    .projet-preview{
+        display: block;
+
+        img{
+            width: 100%;
+        }
+
+        .description-preview{
+            margin: 0;
+
+            .titres-preview{
+                margin: 20px 0 40px 0px;
+            }
+        }
+    }
+}

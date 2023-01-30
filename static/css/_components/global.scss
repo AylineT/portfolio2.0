@@ -121,6 +121,18 @@ button:hover, button:focus{
     h2{
         font-size: 2rem;
         margin-bottom: 45px;
+
+        span{
+            background-position: 0 27px;
+        }
+    }
+
+    h3{
+        font-size: 1.75rem;
+    }
+
+    p{
+        font-size: 1rem;
     }
 }
 

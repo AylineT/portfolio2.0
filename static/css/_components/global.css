@@ -84,6 +84,15 @@ button:hover, button:focus {
     font-size: 2rem;
     margin-bottom: 45px;
   }
+  h2 span {
+    background-position: 0 27px;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 1rem;
+  }
 }
 /* DOT BACKGROUND */
 nav, body {

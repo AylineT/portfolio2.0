@@ -63,4 +63,22 @@
 .projet-preview button.voir-plus {
   display: flex;
   margin: 30px 0 0 auto;
+}
+
+@media screen and (max-width: 48rem) {
+  .projets-accueil {
+    margin: 100px 0;
+  }
+  .projet-preview {
+    display: block;
+  }
+  .projet-preview img {
+    width: 100%;
+  }
+  .projet-preview .description-preview {
+    margin: 0;
+  }
+  .projet-preview .description-preview .titres-preview {
+    margin: 20px 0 40px 0px;
+  }
 }/*# sourceMappingURL=accueil.css.map */

@@ -57,7 +57,7 @@
     margin-bottom: 7vw;
   }
   .single button {
-    margin: 0;
+    margin: auto;
   }
   .single .following-projects {
     display: flex;

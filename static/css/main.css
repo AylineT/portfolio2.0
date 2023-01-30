@@ -26,7 +26,6 @@ header .info-header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 35vw;
 }
 header .info-header .titre-header {
   display: flex;
@@ -53,6 +52,31 @@ header .info-header h1 span {
   margin-left: 20px;
 }
 
+@media screen and (max-width: 48rem) {
+  header {
+    display: block;
+  }
+  header .avatar-img {
+    width: 80vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 50vw;
+    margin: 30px;
+  }
+  header .info-header {
+    display: block;
+  }
+  header .info-header .titre-header h1 {
+    text-align: end;
+  }
+  header .info-header .titre-header h1 span {
+    top: -54px;
+    right: 36px;
+  }
+  header .info-header .titre-header h2 {
+    margin: 20px 0 30px 0px;
+  }
+}
 /* GENERAL */
 h1, h2, h3 {
   font-family: sweet-sans-pro, sans-serif;
@@ -139,11 +163,13 @@ button:hover, button:focus {
     margin-bottom: 45px;
   }
   h2 span {
-    background-image: linear-gradient(to right, rgba(17, 168, 228, 0.2) 100%, rgba(17, 168, 228, 0.2) 100%);
-    background-position: 0 45px;
-    background-size: 110% 30%;
-    transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-    background-repeat: no-repeat;
+    background-position: 0 27px;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 1rem;
   }
 }
 /* DOT BACKGROUND */
@@ -384,6 +410,23 @@ nav a span {
   margin: 30px 0 0 auto;
 }
 
+@media screen and (max-width: 48rem) {
+  .projets-accueil {
+    margin: 100px 0;
+  }
+  .projet-preview {
+    display: block;
+  }
+  .projet-preview img {
+    width: 100%;
+  }
+  .projet-preview .description-preview {
+    margin: 0;
+  }
+  .projet-preview .description-preview .titres-preview {
+    margin: 20px 0 40px 0px;
+  }
+}
 .single h1 {
   line-height: 1em;
 }
@@ -441,7 +484,7 @@ nav a span {
     margin-bottom: 7vw;
   }
   .single button {
-    margin: 0;
+    margin: auto;
   }
   .single .following-projects {
     display: flex;

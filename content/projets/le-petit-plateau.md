@@ -8,7 +8,7 @@ type: "Refont de site web"
 tags: "#DéveloppementWeb, #UserExperience, #WebDesign, #UserInterface"
 outils: "Figma, Github, Visual Studio Code, Trello"
 
-metaDescription: "Dans le cadre de l'atelier Design Interactif, nous devions proposer une refonte d'un site web existant. Nous avons choisi le site de compagnie de théâtre https://lepetitplateau.weebly.com/."
+metaDescription: "DESCRIPTION A REFAIRE LISTE A BULLE ??? Dans le cadre de l'atelier Design Interactif, nous devions proposer une refonte d'un site web existant. Nous avons choisi le site de compagnie de théâtre https://lepetitplateau.weebly.com/."
 
 description: "
 - Designer pour les utilisateurs en utilisant Figma et les grilles ; 
