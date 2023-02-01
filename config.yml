@@ -1,6 +1,7 @@
 baseURL: http://ayline-travers.com
 languageCode: en-us
 title: Ayline Travers
+theme: portfolio-v1
 
 markup:
   goldmark:

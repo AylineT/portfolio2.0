@@ -1,0 +1,136 @@
+
+/*ACCUEIL*/
+
+
+/* QUI SUIS-JE */
+
+.qui-suis-je{
+    margin: 160px 0;
+
+    img{
+        width: 25vw;
+        object-fit: contain;
+        transform: scaleX(-1);
+    }
+
+    .presentation{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+
+        .intro{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 55vw;
+
+            h2{
+                text-align: end;
+                margin-bottom: 50px;
+            }
+
+            a{
+                margin-top: 30px;
+
+                img{
+                    width: 35px;
+                    vertical-align: text-bottom;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* LISTE 3 PROJETS ACCUEIL*/
+
+.projets-accueil{
+    margin: 160px auto;
+
+    h2{
+        text-align: center;
+    }
+}
+
+.projet-preview{
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+
+    .description-preview{
+        margin-left: 130px;
+
+        .link-primary{
+            align-items: end;
+        }
+
+        .titres-preview{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+
+            p{
+                align-items: center;
+                display: flex;
+            }
+        }
+    }
+
+    img{
+        width: 35vw;
+        box-shadow: 5px 5px 19px 0px $gris;
+        border-radius: 20px;
+    }
+
+}
+
+.all-projects{
+    display: flex;
+    margin: auto;
+}
+
+@media screen and (max-width: 48rem){
+
+    .projets-accueil{
+        margin: 100px 0;
+    }
+
+    .projet-preview{
+        display: block;
+
+        img{
+            width: 100%;
+        }
+
+        .description-preview{
+            margin: 0;
+
+            .titres-preview{
+                margin: 20px 0 40px 0px;
+            }
+        }
+    }
+
+    .qui-suis-je{
+        margin: 100px 0;
+
+        .presentation{
+            flex-direction: column-reverse;
+
+            .intro{
+                width: 100%;
+
+                h2{
+                    text-align: center;
+                }
+            }
+
+            .qui-img{
+                width: 70vw;
+                margin: 30px auto 0;
+            }
+        }
+    }
+}

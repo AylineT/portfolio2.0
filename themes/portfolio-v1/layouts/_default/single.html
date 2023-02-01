@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<section class="single">
+
+    <h1>{{ .Title }}</h1>
+    <h2><span>{{ .Params.type }}</span></h2>
+
+    <div class="single-project">
+
+        <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">Slide 01</li>
+                      <li class="splide__slide">Slide 02</li>
+                      <li class="splide__slide">Slide 03</li>
+                  </ul>
+            </div>
+          </div>
+
+        <!-- <img src="{{ .Params.illustration1 }}" alt="{{ .Params.alt1 }}"> -->
+        
+        <div class="single-project-notes">
+            <div class="single-infos">
+                <p><b>{{ .Params.mois }}</b></p>
+                <p><b>{{ .Params.nbrGroupe }}</b></p>
+            </div>
+
+            <div class="single-description">
+                <p>{{ .Params.metaDescription }}</p>
+                <br>
+                <p>{{ .Params.description }}</p>
+            </div>
+
+            <p><b>Outils utilisés</b> : {{ .Params.outils }}</p>
+        
+        </div>
+
+    </div>
+
+    <a class="link-primary all-links" href="{{ .Params.link }}">{{ .Params.libelle }}</a>
+
+    <div class="following-projects">
+        <a href="{{ .Params.previous }}"><span><img src="/images/leftarrow.svg" alt=""></span>{{ .Params.previousLibelle }}</a>
+        <a href="{{ .Params.next }}">{{ .Params.nextLibelle }}<span><img src="/images/rightarrow.svg" alt=""></span></a>
+    </div>
+
+</section>
+
+{{ end }}

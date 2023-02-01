@@ -1,0 +1,14 @@
+<head>
+    {{ $main_options := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
+    {{ $main_template := resources.Get "scss/main.scss" }}
+    {{ $main_style := $main_template | resources.ExecuteAsTemplate "main_parsed.scss" . | toCSS $main_options | resources.Minify }}
+    
+    <link rel="stylesheet" href="{{ $main_style.RelPermalink }}">
+
+    <title>{{ .Site.Title }} - {{ .Title }}</title>
+
+    {{ with .OutputFormats.Get "rss" -}}
+		  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+	  {{ end -}}
+</head>
+
