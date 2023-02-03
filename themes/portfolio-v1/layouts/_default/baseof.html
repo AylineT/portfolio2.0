@@ -3,7 +3,7 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "nav.html" . -}}
-        <div id="content" class="content">
+        <div id="content">
             {{if .IsHome}}{{- partial "header.html" . -}}{{ end }}
             {{if and (not .IsPage) (not .IsHome) }}{{- partial "header-projects.html" . -}}{{ end }}
 

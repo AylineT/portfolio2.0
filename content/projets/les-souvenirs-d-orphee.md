@@ -12,9 +12,9 @@ metaDescription: "Pour le projet jeu vidéo et expérience, nous avions 2 semain
 
 description: "Le jeu a été développé sur Unity en C# et les graphismes ont été dessinés sur Illustrator. Durant ce projet j'ai fait partie du pôle design où j'ai dessiné des personnages et des décors, j'ai également fait le montage du making-of de ces deux semaines de travail intense."
 
-illustration1: "/images/projets/souvenirsO/souvenirsOMenu.png"
-illustration2: "/images/projets/souvenirsO/souvenirsOillu1.png"
-illustration3: "/images/projets/souvenirsO/souvenirsOillu2.png"
+illustration1: "/assets/images/projets/souvenirsO/souvenirsOMenu.png"
+illustration2: "/assets/images/projets/souvenirsO/souvenirsOillu1.png"
+illustration3: "/assets/images/projets/souvenirsO/souvenirsOillu2.png"
 
 alt1: Menu du jeu les souvenirs d'Orphée
 alt2: Illustration du jeu les souvenirs d'Orphée

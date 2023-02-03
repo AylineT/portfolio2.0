@@ -12,9 +12,9 @@ metaDescription: "Ce projet regroupe création de filtres et analyse d'oeuvres d
 
 description: "J'ai réalisé un filtre de flou et un autre de noir et blanc et j'ai rédigé plusieurs des analyses d'oeuvres présentes sur le site."
 
-illustration1: "/images/projets/galerie/galerieImmaculeeAccueil.png"
-illustration2: "/images/projets/galerie/galerieImmaculeeOeuvre1.png"
-illustration3: "/images/projets/galerie/galerieImmaculeeOeuvre2.png"
+illustration1: "/assets/images/projets/galerie/galerieImmaculeeAccueil.png"
+illustration2: "/assets/images/projets/galerie/galerieImmaculeeOeuvre1.png"
+illustration3: "/assets/images/projets/galerie/galerieImmaculeeOeuvre2.png"
 
 alt1: Page d'accueil du site Galerie Immaculée
 alt2: Oeuvre "La Pie" de Claude Monet

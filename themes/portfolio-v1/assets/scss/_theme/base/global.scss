@@ -13,7 +13,7 @@ h1{
     flex-direction: column;
     font-size: $h1;
     font-weight: 600;
-    // background-image: url(/images/ptiteGouttes.svg);
+    // background-image: url(/assets/images/ptiteGouttes.svg);
     // background-size: 80px;
     // background-repeat: no-repeat;
     // background-position: 3% 10%;
@@ -124,7 +124,7 @@ p{
 nav, body{
     background-image: 
     linear-gradient( rgba(206, 164, 115, 0.119), rgba(206, 164, 115, 0.119)),
-    url("/images/dotsV3.png"); 
+    url("/assets/images/dotsV3.png"); 
     background-repeat: repeat;
     background-size: 65%;
 }
@@ -135,7 +135,7 @@ body{
     margin: 0;
 }
 
-.content {
+#content {
     color: #333;
     margin: 110px 60px 0px 60px;
 }

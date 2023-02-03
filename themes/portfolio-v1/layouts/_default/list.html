@@ -1,9 +1,9 @@
 {{ define "main" }}
 
-<article class="list-projet">
+<section class="list-projet">
   <h2><span>Quelques-unes de mes réalisations</span></h2>
 
-  <section class="cards">
+  <div class="cards">
 
     {{ range (.Pages.ByParam "ordre") }}
 
@@ -19,8 +19,6 @@
 
     {{ end }}
 
-  </section>
-  
-</article>
-
+  </div>
+</section>
 {{ end }}

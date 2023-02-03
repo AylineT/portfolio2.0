@@ -1,10 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Ayline Travers</title>
+    <link>http://ayline-travers.com/tags/</link>
+    <description>Recent content in Tags on Ayline Travers</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://ayline-travers.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#AudioVisuel, #Communication, #MontageVidéo</title>
+      <link>http://ayline-travers.com/tags/#audiovisuel-%23communication-%23montagevid%C3%A9o/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ayline-travers.com/tags/#audiovisuel-%23communication-%23montagevid%C3%A9o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#DéveloppementWeb, #Rédaction, #Recherches</title>
+      <link>http://ayline-travers.com/tags/#d%C3%A9veloppementweb-%23r%C3%A9daction-%23recherches/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ayline-travers.com/tags/#d%C3%A9veloppementweb-%23r%C3%A9daction-%23recherches/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#DéveloppementWeb, #Rédaction, #WebDesign</title>
+      <link>http://ayline-travers.com/tags/#d%C3%A9veloppementweb-%23r%C3%A9daction-%23webdesign/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ayline-travers.com/tags/#d%C3%A9veloppementweb-%23r%C3%A9daction-%23webdesign/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#DéveloppementWeb, #UserExperience, #WebDesign, #UserInterface</title>
+      <link>http://ayline-travers.com/tags/#d%C3%A9veloppementweb-%23userexperience-%23webdesign-%23userinterface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ayline-travers.com/tags/#d%C3%A9veloppementweb-%23userexperience-%23webdesign-%23userinterface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#Graphisme, #GameDesign, #MontageVidéo</title>
+      <link>http://ayline-travers.com/tags/#graphisme-%23gamedesign-%23montagevid%C3%A9o/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ayline-travers.com/tags/#graphisme-%23gamedesign-%23montagevid%C3%A9o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#Graphisme, #MotionDesign, #MontageVidéo</title>
+      <link>http://ayline-travers.com/tags/#graphisme-%23motiondesign-%23montagevid%C3%A9o/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ayline-travers.com/tags/#graphisme-%23motiondesign-%23montagevid%C3%A9o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#WebDesign, #UserExperience, #UserInterface</title>
+      <link>http://ayline-travers.com/tags/#webdesign-%23userexperience-%23userinterface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ayline-travers.com/tags/#webdesign-%23userexperience-%23userinterface/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -15,9 +15,9 @@ description: |
     Nous avons fait de nombreuses recherches sur internet et avons récolté une vingtaine de témoignages auprès de femmes victimes d'endométriose. Entre les errances diagnostiques, les symptômes divers et le manque de reconnaissance de la maladie, nous avons mis en place un site web qui regroupe tout types d'informations et de conseils pour celles et ceux qui se posent des questions.
     J'ai participé à la récolte de témoignages, à la réalisation des maquettes du site et à une partie de son intégration HTML, SASS et Bootsrap.
 
-illustration1: "/images/projets/b&c/b&cAccueil.png"
-illustration2: "/images/projets/b&c/b&cPage1.png"
-illustration3: "/images/projets/b&c/b&cPage2.png"
+illustration1: "/assets/images/projets/b&c/b&cAccueil.png"
+illustration2: "/assets/images/projets/b&c/b&cPage1.png"
+illustration3: "/assets/images/projets/b&c/b&cPage2.png"
 
 alt1: Page d'accueil du site Bouillotte et culotte
 alt2: Page écomprendre la maladie" du site Bouillotte et culotte

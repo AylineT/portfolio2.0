@@ -12,9 +12,9 @@ metaDescription: "Ce projet audiovisuel avait pour but de vulgariser une théori
 
 description: "Nous avons réalisé l'entièreté de la vidéo en binôme; la vulgarisation de la théorie, le script, les visuels, l'animation, la voix off et les bruitages."
 
-illustration1: "/images/projets/motion/motionIllu1.png"
-illustration2: "/images/projets/motion/motionIllu3.png"
-illustration3: "/images/projets/motion/motionIllu2.png"
+illustration1: "/assets/images/projets/motion/motionIllu1.png"
+illustration2: "/assets/images/projets/motion/motionIllu3.png"
+illustration3: "/assets/images/projets/motion/motionIllu2.png"
 
 alt1: Illustration personnages du motion design sur Tattooine
 alt2: Illustration personnages du motion design sur le quai 9 ¾

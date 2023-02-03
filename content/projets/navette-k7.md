@@ -12,9 +12,9 @@ metaDescription: "Le projet Showtime avait pour objectif de créer l'épisode pi
 
 description: "Pour la réalisation ambitieuse de cette émission en 2 semaines, j'ai été désignée community manager du compte Instagram de Navette K7, j'ai créé des posts, des stories et des descriptions. J'ai également fait le montage d'une des chroniques de l'émission."
 
-illustration1: "/images/projets/navetteK7/navetteK7logo.png"
-illustration2: "/images/projets/navetteK7/instaNavetteK7.png"
-illustration3: "/images/projets/navetteK7/navetteK7invite.png"
+illustration1: "/assets/images/projets/navetteK7/navetteK7logo.png"
+illustration2: "/assets/images/projets/navetteK7/instaNavetteK7.png"
+illustration3: "/assets/images/projets/navetteK7/navetteK7invite.png"
 
 alt1: Logo de l'émission Navette K7
 alt2: Captures d'écran du compte Instagram Navette K7

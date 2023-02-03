@@ -12,9 +12,9 @@ metaDescription: L'objectif de cet atelier était de refaire l'interface de l'ap
 
 description: "J'ai pu faire des tests utilisateurs aux différents phases de production et réaliser les diverses pages de l'application, tout en respectant les règles d'accessibilité pour rendre l'interface utilisable pour tous."
 
-illustration1: "/images/projets/webike/webikeAccueil.png"
-illustration2: "/images/projets/webike/webike2.png"
-illustration3: "/images/projets/webike/webike1.png"
+illustration1: "/assets/images/projets/webike/webikeAccueil.png"
+illustration2: "/assets/images/projets/webike/webike2.png"
+illustration3: "/assets/images/projets/webike/webike1.png"
 
 alt1: Présentation de l'application WeBike
 alt2: Mode itinéraire l'application WeBike

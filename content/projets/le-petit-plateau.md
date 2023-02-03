@@ -18,9 +18,9 @@ description: "
 - Déployer un site internet (Netifly) et versionner du code (git)"
 
 
-illustration1: "/images/projets/petitPlateauAccueil.png"
-illustration2: "/images/projets/petitPlateauMockup3.png"
-illustration3: "/images/projets/petitPlateauMockup2.png"
+illustration1: "/assets/images/projets/petitPlateauAccueil.png"
+illustration2: "/assets/images/projets/petitPlateauMockup3.png"
+illustration3: "/assets/images/projets/petitPlateauMockup2.png"
 
 alt1: Page d'accueil de la refont Le petit Plateau
 alt2: Mockup de la refont Le petit Plateau
