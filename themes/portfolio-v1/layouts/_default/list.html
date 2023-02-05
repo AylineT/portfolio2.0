@@ -2,23 +2,23 @@
 
 <section class="list-projet">
   <h2><span>Quelques-unes de mes réalisations</span></h2>
-
   <div class="cards">
 
     {{ range (.Pages.ByParam "ordre") }}
 
-    <figure class="card-project">
-      <img src="{{ .Params.illustration1 }}" alt="">
-      <figcaption>
-        <h3>{{ .Params.title }}</h3>
-        <p>{{ .Params.tags }}</p>
-        <!-- <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a> -->
-      </figcaption>
-      <a href="{{ .Params.url }}" class="card-hover"></a>
-    </figure>
+      <figure class="card-project">
+        <img src="{{ .Params.illustration1 }}" alt="">
+        <figcaption>
+          <h3>{{ .Params.title }}</h3>
+          <p>{{ .Params.tags }}</p>
+          <!-- <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a> -->
+        </figcaption>
+        <a href="{{ .Params.url }}" class="card-hover" title="Accéder à la page du projet"></a>
+      </figure>
 
     {{ end }}
 
   </div>
 </section>
+
 {{ end }}

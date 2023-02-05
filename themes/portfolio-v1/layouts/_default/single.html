@@ -6,16 +6,28 @@
     <h2><span>{{ .Params.type }}</span></h2>
 
     <div class="single-project">
-
-        <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+        
+        <div class="splide" id="image-carousel" aria-label="Visuels du projet">
             <div class="splide__track">
-                <ul class="splide__list">
-                    <li class="splide__slide">Slide 01</li>
-                    <li class="splide__slide">Slide 02</li>
-                    <li class="splide__slide">Slide 03</li>
-                </ul>
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                          <img src="{{ .Params.illustration1 }}" alt="">
+                      </li>
+                      <li class="splide__slide">
+                          <img src="{{ .Params.illustration2 }}" alt="">
+                      </li>
+                      <li class="splide__slide">
+                          <img src="{{ .Params.illustration3 }}" alt="">
+                      </li>
+                  </ul>
             </div>
         </div>
+
+        <!-- <script>
+            document.addEventListener( 'DOMContentLoaded', function () {
+              new Splide( '#image-carousel' ).mount();
+            } );
+        </script> -->
 
         <!-- <img src="{{ .Params.illustration1 }}" alt="{{ .Params.alt1 }}"> -->
         
@@ -37,13 +49,28 @@
 
     </div>
 
-    <a class="link-primary all-links" href="{{ .Params.link }}">{{ .Params.libelle }}</a>
+    <a class="link-primary all-links" href="{{ .Params.link }}" target="_blank">{{ .Params.libelle }}</a>
 
     <div class="following-projects">
         <a href="{{ .Params.previous }}"><span><img src="/assets/images/leftarrow.svg" alt=""></span>{{ .Params.previousLibelle }}</a>
         <a href="{{ .Params.next }}">{{ .Params.nextLibelle }}<span><img src="/assets/images/rightarrow.svg" alt=""></span></a>
     </div>
 
+
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '.splide', {
+                height    : '25rem',
+                // autoWidth: true,
+                // focus    : 0,
+                // omitEnd  : true,
+            }).mount();
+        } );
+    </script>
+
+
+
 </section>
+
 
 {{ end }}

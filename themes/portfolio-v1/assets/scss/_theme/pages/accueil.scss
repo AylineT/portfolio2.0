@@ -61,6 +61,8 @@
 
     .description-preview{
         margin-left: 130px;
+        display: flex;
+        flex-direction: column;
 
         .link-primary{
             align-items: end;

@@ -58,6 +58,28 @@
         }
     }
 
+    .splide{
+        width: 40vw;
+
+        *{
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .splide__pagination{
+            bottom: 0;
+        }
+
+        .splide__splide{
+            img{
+                object-fit: contain;
+                box-shadow: 5px 5px 19px 0px $gris;
+                border-radius: 20px;
+            }
+            
+        }
+
+    }
     // RESPONSIVE //
 
     @media screen and (max-width: 48rem){

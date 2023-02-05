@@ -35,6 +35,12 @@ nav {
             opacity: 1;
             transition: .3s;
         }
+
+        :active{
+            &::after{
+                width: 100%;
+            }
+        }
     
         &:hover{
             &::after{
@@ -48,7 +54,8 @@ nav {
 }
 
 .logo {
-    width: 60px
+    width: 60px;
+    opacity: calc(1);
 }
 
   
@@ -71,6 +78,13 @@ nav {
 
             a:first-child{
                 display: none;
+            }
+        }
+
+        .nav-item{
+
+            &::after{
+                width: 100%;
             }
         }
     }

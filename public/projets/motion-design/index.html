@@ -1,45 +1,137 @@
-    <section class="single">
+<!DOCTYPE html>
+<html lang="fr"><head>
+    
+    
+    
+    
+    <link rel="stylesheet" href="/css/main.min.css">
 
-        <h1>Motion design</h1>
-        <h2><span>Audiovisuel</span></h2>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css"/>
+    
 
-        <div class="single-project">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ayline Travers - Motion design</title>
 
-            <div class="splide" role="group" aria-label="Splide Basic HTML Example">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide">Slide 01</li>
-                        <li class="splide__slide">Slide 02</li>
-                        <li class="splide__slide">Slide 03</li>
-                    </ul>
-                </div>
+    </head>
+
+<body><nav class="site-nav">
+    <a class= "logo" href="http://ayline-travers.com" title="Accueil">
+      <img src="/assets/images/logoV3.svg" alt="" class="logo">
+    </a>
+
+    <div class="nav-items">
+      <a class="nav-item" href="http://ayline-travers.com">Accueil</a>
+      <a class="nav-item" href="/projets/">Mes projets</a>
+    </div>
+
+    
+</nav>
+
+<div id="content">
+            
+            
+
+<section class="single">
+
+    <h1>Motion design</h1>
+    <h2><span>Audiovisuel</span></h2>
+
+    <div class="single-project">
+        
+        <div class="splide" id="image-carousel" aria-label="Visuels du projet">
+            <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                          <img src="/assets/images/projets/motion/motionIllu1.png" alt="">
+                      </li>
+                      <li class="splide__slide">
+                          <img src="/assets/images/projets/motion/motionIllu3.png" alt="">
+                      </li>
+                      <li class="splide__slide">
+                          <img src="/assets/images/projets/motion/motionIllu2.png" alt="">
+                      </li>
+                  </ul>
+            </div>
+        </div>
+
+        
+
+        
+        
+        <div class="single-project-notes">
+            <div class="single-infos">
+                <p><b>Décembre 2021</b></p>
+                <p><b>Groupe de 2</b></p>
             </div>
 
-            
-            
-            <div class="single-project-notes">
-                <div class="single-infos">
-                    <p><b>Décembre 2021</b></p>
-                    <p><b>Groupe de 5</b></p>
-                </div>
-
-                <div class="single-description">
-                    <p>Ce projet audiovisuel avait pour but de vulgariser une théorie de communication, nous avons choisi l&#39;assimilation et la démoralisation des individus de William Isaac Thomas. Nous suivons l&#39;histoire de Chewie et son fils, qui doivent fuir dans un autre univers, entraînant des déséquilibres dans leur processus d&#39;intégration.</p>
-                    <br>
-                    <p>Nous avons réalisé l&#39;entièreté de la vidéo en binôme; la vulgarisation de la théorie, le script, les visuels, l&#39;animation, la voix off et les bruitages.</p>
-                </div>
-
-                <p><b>Outils utilisés</b> : AfterEffects, Illustrator, Premiere Pro</p>
-            
+            <div class="single-description">
+                <p>Ce projet audiovisuel avait pour but de vulgariser une théorie de communication, nous avons choisi l&#39;assimilation et la démoralisation des individus de William Isaac Thomas. Nous suivons l&#39;histoire de Chewie et son fils, qui doivent fuir dans un autre univers, entraînant des déséquilibres dans leur processus d&#39;intégration.</p>
+                <br>
+                <p>Nous avons réalisé l&#39;entièreté de la vidéo en binôme; la vulgarisation de la théorie, le script, les visuels, l&#39;animation, la voix off et les bruitages.</p>
             </div>
+
+            <p><b>Outils utilisés</b> : AfterEffects, Illustrator, Premiere Pro</p>
+        
+        </div>
+
+    </div>
+
+    <a class="link-primary all-links" href="https://www.youtube.com/watch?v=YHK4hOHdaEM" target="_blank">Voir le motion design</a>
+
+    <div class="following-projects">
+        <a href="/projets/au-bord-des-rues"><span><img src="/assets/images/leftarrow.svg" alt=""></span>Au bord des rues</a>
+        <a href="/projets/le-petit-plateau">Le petit plateau<span><img src="/assets/images/rightarrow.svg" alt=""></span></a>
+    </div>
+
+
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '.splide', {
+                height    : '25rem',
+                
+                
+                
+            }).mount();
+        } );
+    </script>
+
+
+
+</section>
+
+
 
         </div>
 
-        <a class="link-primary all-links" href="https://www.youtube.com/watch?v=YHK4hOHdaEM">Voir le motion design</a>
+<footer>
 
-        <div class="following-projects">
-            <a href="/projets/au-bord-des-rues"><span><img src="/assets/images/leftarrow.svg" alt=""></span>Au bord des rues</a>
-            <a href="/projets/le-petit-plateau">Le petit plateau<span><img src="/assets/images/rightarrow.svg" alt=""></span></a>
-        </div>
+	<div class="infos-footer">
+		<div class="pub-footer">
+			<h3>Merci de votre visite !</h3>
+			<p>Je suis à la recherche d’un <b>stage à partir du 17 avril au 30 juin</b>. Si mon profil vous intéresse, n’hésitez pas à me contacter ! </p>
+		</div>
+	
+		<div class="liens-footer">
+			<div class="contact">
+				<ul>
+					<li><a href="https://www.linkedin.com/in/ayline-travers/" target="_blank">Linkedin<span><img src="/assets/images/iconLinkedin.svg" alt="icône linkedin"></span></a></li>
+					<li><a href="https://github.com/AylineT" target="_blank">Github<span><img src="/assets/images/iconGithub.svg" alt="icône Github"></span></a></li>
+					<li><a href="mailto:ayline.travers@gmail.com" target="_blank">ayline.travers@gmail.com<span><img src="/assets/images/iconMail.svg" alt="icône Mail"></span></a></li>
+					<li><a href="#">Mon CV<span><img src="/assets/images/iconCV.svg" alt="icône Mail"></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="last">
+		<p>&copy;2023 Ayline Travers</p>
+		<a href="http://ayline-travers.com">
+			<img src="/assets/images/logoATV2.svg" alt="logo" class="logo">
+		</a>
+	</div>
 
-    </section>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+    </body>
+</html>

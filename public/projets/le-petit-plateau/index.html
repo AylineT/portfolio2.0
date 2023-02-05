@@ -1,47 +1,137 @@
-    <section class="single">
+<!DOCTYPE html>
+<html lang="fr"><head>
+    
+    
+    
+    
+    <link rel="stylesheet" href="/css/main.min.css">
 
-        <h1>Le petit plateau</h1>
-        <h2><span>Refont de site web</span></h2>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css"/>
+    
 
-        <div class="single-project">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ayline Travers - Le petit plateau</title>
 
-            <div class="splide" role="group" aria-label="Splide Basic HTML Example">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide">Slide 01</li>
-                        <li class="splide__slide">Slide 02</li>
-                        <li class="splide__slide">Slide 03</li>
-                    </ul>
-                </div>
+    </head>
+
+<body><nav class="site-nav">
+    <a class= "logo" href="http://ayline-travers.com" title="Accueil">
+      <img src="/assets/images/logoV3.svg" alt="" class="logo">
+    </a>
+
+    <div class="nav-items">
+      <a class="nav-item" href="http://ayline-travers.com">Accueil</a>
+      <a class="nav-item" href="/projets/">Mes projets</a>
+    </div>
+
+    
+</nav>
+
+<div id="content">
+            
+            
+
+<section class="single">
+
+    <h1>Le petit plateau</h1>
+    <h2><span>Refont de site web</span></h2>
+
+    <div class="single-project">
+        
+        <div class="splide" id="image-carousel" aria-label="Visuels du projet">
+            <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                          <img src="/assets/images/projets/petitPlateauAccueil.png" alt="">
+                      </li>
+                      <li class="splide__slide">
+                          <img src="/assets/images/projets/petitPlateauMockup3.png" alt="">
+                      </li>
+                      <li class="splide__slide">
+                          <img src="/assets/images/projets/petitPlateauMockup2.png" alt="">
+                      </li>
+                  </ul>
+            </div>
+        </div>
+
+        
+
+        
+        
+        <div class="single-project-notes">
+            <div class="single-infos">
+                <p><b>Octobre 2021</b></p>
+                <p><b>Groupe de 5</b></p>
             </div>
 
-            
-            
-            <div class="single-project-notes">
-                <div class="single-infos">
-                    <p><b>Octobre 2021</b></p>
-                    <p><b>Groupe de 5</b></p>
-                </div>
-
-                <div class="single-description">
-                    <p>DESCRIPTION A REFAIRE LISTE A BULLE ??? Dans le cadre de l&#39;atelier Design Interactif, nous devions proposer une refonte d&#39;un site web existant. Nous avons choisi le site de compagnie de théâtre https://lepetitplateau.weebly.com/.</p>
-                    <br>
-                    <p> - Designer pour les utilisateurs en utilisant Figma et les grilles ;
-- Développer un site internet (HTML , CSS , SASS , JS , git , Jekyll) ;
-- Déployer un site internet (Netifly) et versionner du code (git)</p>
-                </div>
-
-                <p><b>Outils utilisés</b> : Figma, Github, Visual Studio Code, Trello</p>
-            
+            <div class="single-description">
+                <p>Dans le cadre de l&#39;atelier Design Interactif, nous devions proposer une refonte d&#39;un site web existant. Nous avons choisi le site de compagnie de théâtre bordelaise Le petit plateau. Grâce à un audit complet du site, nous avons identifié les élements à modifier, ajouter et supprimer puis nous avons réalisé une maquette. Nous avons développé le site en HTML et SCSS avec Jekyll.</p>
+                <br>
+                <p>J&#39;ai participé à la création des maquettes sur Figma et au développement pour la version desktop et la version responsive.</p>
             </div>
+
+            <p><b>Outils utilisés</b> : Figma, Github, Visual Studio Code, Jekyll, Trello</p>
+        
+        </div>
+
+    </div>
+
+    <a class="link-primary all-links" href="https://www.figma.com/proto/DqyKZQM2T2808GhZTQbRVQ/Jalan---Le-petit-plateau?kind=&amp;node-id=504%3A282&amp;page-id=416%3A2&amp;scaling=contain&amp;show-proto-sidebar=1&amp;starting-point-node-id=504%3A282&amp;viewport=241%2C48%2C0.17" target="_blank">Voir la maquette du site !</a>
+
+    <div class="following-projects">
+        <a href="/projets/motion-design"><span><img src="/assets/images/leftarrow.svg" alt=""></span>Motion Design</a>
+        <a href="/projets/les-souvenirs-d-orphee">Les souvenirs d&#39;Orphée<span><img src="/assets/images/rightarrow.svg" alt=""></span></a>
+    </div>
+
+
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '.splide', {
+                height    : '25rem',
+                
+                
+                
+            }).mount();
+        } );
+    </script>
+
+
+
+</section>
+
+
 
         </div>
 
-        <a class="link-primary all-links" href="https://www.figma.com/proto/DqyKZQM2T2808GhZTQbRVQ/Jalan---Le-petit-plateau?kind=&amp;node-id=504%3A282&amp;page-id=416%3A2&amp;scaling=contain&amp;show-proto-sidebar=1&amp;starting-point-node-id=504%3A282&amp;viewport=241%2C48%2C0.17">Voir plus sur le projet !</a>
+<footer>
 
-        <div class="following-projects">
-            <a href="/projets/motion-design"><span><img src="/assets/images/leftarrow.svg" alt=""></span>Motion Design</a>
-            <a href="/projets/les-souvenirs-d-orphee">Les souvenirs d&#39;Orphée<span><img src="/assets/images/rightarrow.svg" alt=""></span></a>
-        </div>
+	<div class="infos-footer">
+		<div class="pub-footer">
+			<h3>Merci de votre visite !</h3>
+			<p>Je suis à la recherche d’un <b>stage à partir du 17 avril au 30 juin</b>. Si mon profil vous intéresse, n’hésitez pas à me contacter ! </p>
+		</div>
+	
+		<div class="liens-footer">
+			<div class="contact">
+				<ul>
+					<li><a href="https://www.linkedin.com/in/ayline-travers/" target="_blank">Linkedin<span><img src="/assets/images/iconLinkedin.svg" alt="icône linkedin"></span></a></li>
+					<li><a href="https://github.com/AylineT" target="_blank">Github<span><img src="/assets/images/iconGithub.svg" alt="icône Github"></span></a></li>
+					<li><a href="mailto:ayline.travers@gmail.com" target="_blank">ayline.travers@gmail.com<span><img src="/assets/images/iconMail.svg" alt="icône Mail"></span></a></li>
+					<li><a href="#">Mon CV<span><img src="/assets/images/iconCV.svg" alt="icône Mail"></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="last">
+		<p>&copy;2023 Ayline Travers</p>
+		<a href="http://ayline-travers.com">
+			<img src="/assets/images/logoATV2.svg" alt="logo" class="logo">
+		</a>
+	</div>
 
-    </section>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+    </body>
+</html>

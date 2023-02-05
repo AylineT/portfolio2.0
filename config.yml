@@ -14,9 +14,3 @@ menu:
     - name: Projets
     - url: /projets
     - weight: 10
-
-  main:
-    - identifier: about
-    - name: About
-    - url: /about
-    - weight: 20

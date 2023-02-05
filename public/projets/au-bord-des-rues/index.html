@@ -1,45 +1,137 @@
-    <section class="single">
+<!DOCTYPE html>
+<html lang="fr"><head>
+    
+    
+    
+    
+    <link rel="stylesheet" href="/css/main.min.css">
 
-        <h1>Au bord des rues</h1>
-        <h2><span>Site web</span></h2>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css"/>
+    
 
-        <div class="single-project">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ayline Travers - Au bord des rues</title>
 
-            <div class="splide" role="group" aria-label="Splide Basic HTML Example">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide">Slide 01</li>
-                        <li class="splide__slide">Slide 02</li>
-                        <li class="splide__slide">Slide 03</li>
-                    </ul>
-                </div>
+    </head>
+
+<body><nav class="site-nav">
+    <a class= "logo" href="http://ayline-travers.com" title="Accueil">
+      <img src="/assets/images/logoV3.svg" alt="" class="logo">
+    </a>
+
+    <div class="nav-items">
+      <a class="nav-item" href="http://ayline-travers.com">Accueil</a>
+      <a class="nav-item" href="/projets/">Mes projets</a>
+    </div>
+
+    
+</nav>
+
+<div id="content">
+            
+            
+
+<section class="single">
+
+    <h1>Au bord des rues</h1>
+    <h2><span>Site web</span></h2>
+
+    <div class="single-project">
+        
+        <div class="splide" id="image-carousel" aria-label="Visuels du projet">
+            <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                          <img src="/assets/images/projets/blogArt1.png" alt="">
+                      </li>
+                      <li class="splide__slide">
+                          <img src="/assets/images/projets/blogArt2.png" alt="">
+                      </li>
+                      <li class="splide__slide">
+                          <img src="/assets/images/projets/blogArt3.png" alt="">
+                      </li>
+                  </ul>
+            </div>
+        </div>
+
+        
+
+        
+        
+        <div class="single-project-notes">
+            <div class="single-infos">
+                <p><b>Février 2022</b></p>
+                <p><b>Groupe de 5</b></p>
             </div>
 
-            
-            
-            <div class="single-project-notes">
-                <div class="single-infos">
-                    <p><b>Février 2022</b></p>
-                    <p><b>Groupe de 5</b></p>
-                </div>
-
-                <div class="single-description">
-                    <p>Le but de l&#39;atelier Blog&#39;art était de créer un blog de A à Z. Nous avons utilisé des langages de programmation tels que PHP et MySQL pour la partie back, puis HTML et SASS pour la partie front. Nous nous sommes organisés pendant 3 semaines pour réaliser un blog fonctionnel et rédiger des articles sur le thème de la solidarité.</p>
-                    <br>
-                    <p>J&#39;ai participé à la création du design du site, au développement back-end et à la rédaction des articles.</p>
-                </div>
-
-                <p><b>Outils utilisés</b> : Figma, Github, Visual Studio Code, PhpMyAdmin, Trello</p>
-            
+            <div class="single-description">
+                <p>Le but de l&#39;atelier Blog&#39;art était de créer un blog de A à Z. Nous avons utilisé des langages de programmation tels que PHP et MySQL pour la partie back, puis HTML et SASS pour la partie front. Nous nous sommes organisés pendant 3 semaines pour réaliser un blog fonctionnel et rédiger des articles sur le thème de la solidarité.</p>
+                <br>
+                <p>J&#39;ai participé à la création du design du site, au développement back-end et à la rédaction des articles.</p>
             </div>
+
+            <p><b>Outils utilisés</b> : Figma, Github, Visual Studio Code, PhpMyAdmin, Trello</p>
+        
+        </div>
+
+    </div>
+
+    <a class="link-primary all-links" href="https://www.behance.net/gallery/138990515/Au-bord-des-rues" target="_blank">Visiter la page behance du projet</a>
+
+    <div class="following-projects">
+        <a href="/projets/navette-k7"><span><img src="/assets/images/leftarrow.svg" alt=""></span>Navette K7</a>
+        <a href="/projets/motion-design">Motion Design<span><img src="/assets/images/rightarrow.svg" alt=""></span></a>
+    </div>
+
+
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '.splide', {
+                height    : '25rem',
+                
+                
+                
+            }).mount();
+        } );
+    </script>
+
+
+
+</section>
+
+
 
         </div>
 
-        <a class="link-primary all-links" href="https://www.behance.net/gallery/138990515/Au-bord-des-rues">Visiter la page behance du projet</a>
+<footer>
 
-        <div class="following-projects">
-            <a href="/projets/navette-k7"><span><img src="/assets/images/leftarrow.svg" alt=""></span>Navette K7</a>
-            <a href="/projets/motion-design">Motion Design<span><img src="/assets/images/rightarrow.svg" alt=""></span></a>
-        </div>
+	<div class="infos-footer">
+		<div class="pub-footer">
+			<h3>Merci de votre visite !</h3>
+			<p>Je suis à la recherche d’un <b>stage à partir du 17 avril au 30 juin</b>. Si mon profil vous intéresse, n’hésitez pas à me contacter ! </p>
+		</div>
+	
+		<div class="liens-footer">
+			<div class="contact">
+				<ul>
+					<li><a href="https://www.linkedin.com/in/ayline-travers/" target="_blank">Linkedin<span><img src="/assets/images/iconLinkedin.svg" alt="icône linkedin"></span></a></li>
+					<li><a href="https://github.com/AylineT" target="_blank">Github<span><img src="/assets/images/iconGithub.svg" alt="icône Github"></span></a></li>
+					<li><a href="mailto:ayline.travers@gmail.com" target="_blank">ayline.travers@gmail.com<span><img src="/assets/images/iconMail.svg" alt="icône Mail"></span></a></li>
+					<li><a href="#">Mon CV<span><img src="/assets/images/iconCV.svg" alt="icône Mail"></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="last">
+		<p>&copy;2023 Ayline Travers</p>
+		<a href="http://ayline-travers.com">
+			<img src="/assets/images/logoATV2.svg" alt="logo" class="logo">
+		</a>
+	</div>
 
-    </section>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+    </body>
+</html>

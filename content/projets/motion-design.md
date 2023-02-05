@@ -3,7 +3,7 @@ title: "Motion design"
 url: "/projets/motion-design"
 order: 7
 mois: Décembre 2021
-nbrGroupe: Groupe de 5
+nbrGroupe: Groupe de 2
 type: "Audiovisuel"
 tags: "#Graphisme, #MotionDesign, #MontageVidéo"
 outils: "AfterEffects, Illustrator, Premiere Pro"
