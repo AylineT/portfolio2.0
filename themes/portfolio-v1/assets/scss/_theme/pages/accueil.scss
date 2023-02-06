@@ -63,17 +63,17 @@
         margin-left: 130px;
         display: flex;
         flex-direction: column;
-
-        .link-primary{
-            align-items: end;
-        }
+        align-items: end;
+        justify-content: space-between;
+        gap: 20px;
 
         .titres-preview{
             display: flex;
             justify-content: space-between;
             margin-bottom: 40px;
+            width: 100%;
 
-            p{
+            time{
                 align-items: center;
                 display: flex;
             }

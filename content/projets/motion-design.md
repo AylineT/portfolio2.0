@@ -5,7 +5,7 @@ order: 7
 mois: Décembre 2021
 nbrGroupe: Groupe de 2
 type: "Audiovisuel"
-tags: "#Graphisme, #MotionDesign, #MontageVidéo"
+tags: ["Graphisme", "MotionDesign", "MontageVidéo"]
 outils: "AfterEffects, Illustrator, Premiere Pro"
 
 metaDescription: "Ce projet audiovisuel avait pour but de vulgariser une théorie de communication, nous avons choisi l'assimilation et la démoralisation des individus de William Isaac Thomas. Nous suivons l'histoire de Chewie et son fils, qui doivent fuir dans un autre univers, entraînant des déséquilibres dans leur processus d'intégration."

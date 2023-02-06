@@ -5,7 +5,7 @@ ordre: 6
 mois: "Février 2022"
 nbrGroupe: Groupe de 5
 type: "Site web"
-tags: "#DéveloppementWeb, #Rédaction, #WebDesign"
+tags: ["DéveloppementWeb", "Rédaction", "WebDesign"]
 outils: "Figma, Github, Visual Studio Code, PhpMyAdmin, Trello"
 
 metaDescription: "Le but de l'atelier Blog'art était de créer un blog de A à Z. Nous avons utilisé des langages de programmation tels que PHP et MySQL pour la partie back, puis HTML et SASS pour la partie front. Nous nous sommes organisés pendant 3 semaines pour réaliser un blog fonctionnel et rédiger des articles sur le thème de la solidarité."

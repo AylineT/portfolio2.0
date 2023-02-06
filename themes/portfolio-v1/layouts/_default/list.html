@@ -6,15 +6,16 @@
 
     {{ range (.Pages.ByParam "ordre") }}
 
+      <a href="{{ .Params.url }}" class="card-hover" title="Accéder à la page du projet">
+
       <figure class="card-project">
         <img src="{{ .Params.illustration1 }}" alt="">
         <figcaption>
           <h3>{{ .Params.title }}</h3>
           <p>{{ .Params.tags }}</p>
-          <!-- <a href="{{ .Params.url }}" class="voir-plus">Voir plus</a> -->
         </figcaption>
-        <a href="{{ .Params.url }}" class="card-hover" title="Accéder à la page du projet"></a>
       </figure>
+    </a>
 
     {{ end }}
 

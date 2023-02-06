@@ -5,7 +5,7 @@ ordre: 2
 mois: Décembre 2022
 nbrGroupe: Groupe de 4
 type: "Site web"
-tags: "#DéveloppementWeb, #Rédaction, #Recherches"
+tags: ["DéveloppementWeb", "Rédaction", "Recherches"]
 outils: "Figma, Visual Studio Code, Github"
 
 metaDescription: "Ce projet regroupe création de filtres et analyse d'oeuvres d'art. Le but était de choisir une couleur, la notre étant le blanc, puis de choisir une sélection d'oeuvres artistiques et analyser leur utilisation de cette couleur. Nous devions ensuite créer des filtres en JavaScript et les appliquer à ces images."

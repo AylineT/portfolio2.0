@@ -4,7 +4,7 @@ url: "/projets/bouillotte-et-culotte"
 ordre: 4
 mois: Avril 2022
 type: "Site web"
-tags: "#DéveloppementWeb, #Rédaction, #WebDesign"
+tags: ["DéveloppementWeb", "Rédaction", "WebDesign"]
 nbrGroupe: Groupe de 11
 outils: "Figma, Github, Visual Studio Code, Trello, Bootsrap"
 
