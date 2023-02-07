@@ -12,9 +12,9 @@ metaDescription: "Le but de l'atelier Blog'art était de créer un blog de A à 
 
 description: "J'ai participé à la création du design du site, au développement back-end et à la rédaction des articles."
 
-illustration1: "/assets/images/projets/blogArt1.png"
-illustration2: "/assets/images/projets/blogArt2.png"
-illustration3: "/assets/images/projets/blogArt3.png"
+illustration1: "/assets/images/projets/blogart/blogArt1.png"
+illustration2: "/assets/images/projets/blogart/blogArt2.png"
+illustration3: "/assets/images/projets/blogart/blogArt3.png"
 
 alt1: Page d'accueil du site Au bord des rues
 alt2: 

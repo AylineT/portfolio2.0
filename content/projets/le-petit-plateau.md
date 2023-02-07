@@ -12,9 +12,9 @@ metaDescription: "Dans le cadre de l'atelier Design Interactif, nous devions pro
 
 description: "J'ai participé à la création des maquettes sur Figma et au développement pour la version desktop et la version responsive."
 
-illustration1: "/assets/images/projets/petitPlateauAccueil.png"
-illustration2: "/assets/images/projets/petitPlateauMockup3.png"
-illustration3: "/assets/images/projets/petitPlateauMockup2.png"
+illustration1: "/assets/images/projets/petitPlateau/petitPlateauAccueil.png"
+illustration2: "/assets/images/projets/petitPlateau/petitPlateauMockup3.png"
+illustration3: "/assets/images/projets/petitPlateau/petitPlateauMockup2.png"
 
 alt1: Page d'accueil de la refont Le petit Plateau
 alt2: Mockup de la refont Le petit Plateau
