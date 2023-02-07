@@ -45,7 +45,7 @@ h3{
     font-weight: 500;
 }
 
-p, a{
+p, a, time{
     font-family: $p-font;
     color: $noir;
     font-weight: 400;
@@ -56,7 +56,7 @@ a{
     font-size: $a;
 }
 
-p{
+p, time{
     font-size: $p;
 }
 
