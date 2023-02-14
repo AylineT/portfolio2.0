@@ -5,7 +5,7 @@ ordre: 3
 mois: Octobre 2022
 nbrGroupe: Groupe de 5
 type: "Maquette d'application"
-tags: ["WebDesign", "UserExperience", "UserInterface"]
+tags: "WebDesign, UserExperience, UserInterface"
 outils: "Figma, Trello"
 
 metaDescription: L'objectif de cet atelier était de refaire l'interface de l'application de vélos en libre service de la ville de Bordeaux. La première semaine était consacrée à l'UX, nous avons réfléchi aux fonctionnalités à mettre en place et celles à améliorer en faisant une première version de maquette. Pendant la deuxième semaine, nous avons défini une charte graphique et pris en compte les retours des utilisateurs pour répondre à leurs attentes et finir la maquette.

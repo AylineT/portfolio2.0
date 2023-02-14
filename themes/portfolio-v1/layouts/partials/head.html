@@ -12,8 +12,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>{{ .Site.Title }} - {{ .Title }}</title>
 
+    <meta name="description" content="Développeuse web junior et web designeuse basée à Bordeaux - Ayline Travers">
+    <meta name="keywords" content="">
+    <meta name="author" content="Ayline Travers">
+
     {{ with .OutputFormats.Get "rss" -}}
 		  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-	  {{ end -}}
+	{{ end -}}
 </head>
 

@@ -5,7 +5,7 @@ ordre: 5
 mois: Mars 2022
 nbrGroupe: Groupe de 8
 type: "Audiovisuel"
-tags: ["AudioVisuel", "Communication", "MontageVidéo"]
+tags: "AudioVisuel, Communication, MontageVidéo"
 outils: "Illustrator, Premiere Pro, Instagram, Trello"
 
 metaDescription: "Le projet Showtime avait pour objectif de créer l'épisode pilote d'une émission télé et de faire sa communication. Nous avons choisi de réaliser une émission sur le thème du rétro et du vintage appellée : Navette K7. Avec un invité et plusieurs courtes chroniques, les sujets sont variés et la nostalgie est au rendez-vous !"

@@ -5,7 +5,7 @@ ordre: 1
 mois: Novembre 2022
 nbrGroupe: Groupe de 5
 type: "Jeu vidéo"
-tags: ["Graphisme", "GameDesign", "MontageVidéo"]
+tags: "Graphisme, GameDesign, MontageVidéo"
 outils: "Unity, Github, Visual Studio Code, Trello, Illustrator, Premiere Pro, Figma"
 
 metaDescription: "Pour le projet jeu vidéo et expérience, nous avions 2 semaines pour créer un jeu vidéo sur Unity. Une semaine de conception durant laquelle nous avons imaginé une histoire, des personnages et des niveaux de jeu, et une semaine de réalisation pour la phase de création des designs et de développement."

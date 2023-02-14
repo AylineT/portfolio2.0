@@ -60,6 +60,11 @@
     .splide{
         width: 40vw;
 
+        .splide__track{
+            box-shadow: 5px 5px 19px 0px $gris;
+            border-radius: 20px;
+        }
+
         *{
             box-sizing: border-box;
             font-family: 'Inter', sans-serif;
@@ -70,10 +75,10 @@
         }
 
         .splide__splide{
+
             img{
                 object-fit: contain;
-                box-shadow: 5px 5px 19px 0px $gris;
-                border-radius: 20px;
+
             }
             
         }
@@ -126,6 +131,20 @@
                 width: 7vw;
                 vertical-align: text-bottom;
                 padding: 0 10px;
+            }
+        }
+
+        .splide{
+            width: 100%;
+            margin-bottom: 5vh;
+
+            .splide__splide{
+                img{
+                    object-fit: contain;
+                    box-shadow: 5px 5px 19px 0px $gris;
+                    border-radius: 20px;
+                }
+                
             }
         }
     }
