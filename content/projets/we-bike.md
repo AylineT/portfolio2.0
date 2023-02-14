@@ -1,7 +1,7 @@
 ---
 title: "We Bike"
 url: "/projets/we-bike"
-ordre: 3
+ordre: 6
 mois: Octobre 2022
 nbrGroupe: Groupe de 5
 type: "Maquette d'application"
@@ -21,7 +21,7 @@ alt2: Mode itinéraire l'application WeBike
 alt3: Mode récupérer le vélo l'application WeBike
 
 link: https://www.behance.net/gallery/157376699/WEBIKE
-libelle: "Voir la page behance du projet !"
+libelle: "Voir la page behance du projet"
 
 next: /projets/bouillotte-et-culotte
 nextLibelle: Bouillotte et culotte

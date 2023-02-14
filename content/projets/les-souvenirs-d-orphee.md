@@ -1,7 +1,7 @@
 ---
-title: "Les souvenirs d'Orphée"
+title: "Souvenirs d'Orphée"
 url: "/projets/les-souvenirs-d-orphee"
-ordre: 1
+ordre: 3
 mois: Novembre 2022
 nbrGroupe: Groupe de 5
 type: "Jeu vidéo"
@@ -21,7 +21,7 @@ alt2: Illustration du jeu les souvenirs d'Orphée
 alt3: Illustration du jeu les souvenirs d'Orphée
 
 link: https://ayliine.itch.io/les-souvenirs-dorphee
-libelle: "Visiter la page itch.io du jeu !"
+libelle: "Visiter la page itch.io du jeu"
 
 link2: https://souvenirsdorphee.netlify.app/
 

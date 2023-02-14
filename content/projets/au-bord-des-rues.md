@@ -1,7 +1,7 @@
 ---
 title: "Au bord des rues"
 url: "/projets/au-bord-des-rues"
-ordre: 6
+ordre: 9
 mois: "Février 2022"
 nbrGroupe: Groupe de 5
 type: "Site web"
