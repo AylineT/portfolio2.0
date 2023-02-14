@@ -16,6 +16,9 @@
     <meta name="keywords" content="">
     <meta name="author" content="Ayline Travers">
 
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" href="/assets/images/favicons/favicon.ico">
+
     {{ with .OutputFormats.Get "rss" -}}
 		  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
