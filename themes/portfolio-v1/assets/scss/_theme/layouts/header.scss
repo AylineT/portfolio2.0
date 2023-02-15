@@ -67,11 +67,11 @@ header{
     header{
         display: block;
 
-        .avatar-img{
-            width: 80vw;
-            object-fit: cover;
-            height: 50vw;
-            margin: 25px;
+        .header-img{
+            max-width: 60vw;
+            object-fit: contain;
+            display: flex;
+            margin: auto;
         }
 
         .info-header{
@@ -90,6 +90,7 @@ header{
     
                 h2{
                     margin: 20px 0 30px 0px;
+                    max-width: 100%;
                 }
             }
 
