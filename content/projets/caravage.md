@@ -4,9 +4,9 @@ url: "/projets/caravage"
 ordre: 2
 mois: Février 2023
 nbrGroupe: 5
-type: 
-tags: 
-outils: 
+type: Jeu vidéo
+tags: "Graphisme, GameDesign, "
+outils: AfterEffects, Figma, Illustrator, Visual Studio Code
 draft : true
 
 metaDescription:
@@ -18,7 +18,7 @@ illustration2: "/assets/images/projets/"
 illustration3: "/assets/images/projets/"
 
 link: 
-libelle: 
+libelle: "Jouer à ÇaRavage"
 
 next: /projets/
 nextLibelle: 

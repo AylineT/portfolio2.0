@@ -5,16 +5,21 @@ header{
     display: flex;
     justify-content: space-between;
 
-    .avatar-img{
-        width: 25vw;
-        object-fit: cover;
+    .header-img{
+        max-width: 30vw;
+        object-fit: contain;
+        position: relative;
+        align-self: baseline;
+    }
+
+    .header-projects{
+        max-width: 25vw;
     }
 
     .info-header{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        // height: 35vw;
 
         .titre-header{
             display: flex;
@@ -31,6 +36,8 @@ header{
 
         h2{
             margin-bottom: 50px;
+            max-width: 60vw;
+            text-align: end;
         }
     
     }    
