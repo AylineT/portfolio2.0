@@ -7,6 +7,7 @@ nbrGroupe:
 type: 
 tags: 
 outils: 
+draft: true
 
 metaDescription:
 
