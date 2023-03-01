@@ -84,13 +84,14 @@
 
 //RESPONSIVE//
 
-@media screen and (max-width: 1200px){
-    .cards{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 50px;
-    }
-}
+// @media only screen and (min-width: 321px) and (max-width: 799px){
+//     .cards{
+//         display: grid;
+//         grid-template-columns: repeat(2, 1fr);
+//         grid-gap: 50px;
+//         text-align: -webkit-center;
+//     }
+// }
 
 @media screen and (max-width: 48rem){
 
@@ -101,6 +102,7 @@
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             grid-gap: 50px;
+            text-align: -webkit-center;
         }
     
         .card-project{
