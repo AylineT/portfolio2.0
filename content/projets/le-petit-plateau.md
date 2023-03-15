@@ -7,6 +7,7 @@ nbrGroupe: Groupe de 5
 type: "Refont de site web"
 tags: "DéveloppementWeb, UserExperience, WebDesign, UserInterface"
 outils: "Figma, Github, Visual Studio Code, Jekyll, Trello"
+draft: true
 
 metaDescription: "Dans le cadre de l'atelier Design Interactif, nous devions proposer une refonte d'un site web existant. Nous avons choisi le site de compagnie de théâtre bordelaise Le petit plateau. Grâce à un audit complet du site, nous avons identifié les élements à modifier, ajouter et supprimer puis nous avons réalisé une maquette. Nous avons développé le site en HTML et SCSS avec Jekyll."
 

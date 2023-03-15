@@ -10,7 +10,7 @@ outils: "Figma, Visual Studio Code, Github"
 
 metaDescription: "Ce projet regroupe création de filtres et analyse d'oeuvres d'art. Le but était de choisir une couleur, la notre étant le blanc, puis de choisir une sélection d'oeuvres artistiques et analyser leur utilisation de cette couleur. Nous devions ensuite créer des filtres en JavaScript et les appliquer à ces images."
 
-description: "J'ai réalisé un filtre de flou et un autre de noir et blanc et j'ai rédigé plusieurs des analyses d'oeuvres présentes sur le site."
+description: "J'ai réalisé un filtre de flou et un autre de noir et blanc, j'ai participé à la réalisation du webdesign et j'ai rédigé plusieurs des analyses d'oeuvres présentes sur le site."
 
 illustration1: "/assets/images/projets/galerie/galerieImmaculeeAccueil.png"
 illustration2: "/assets/images/projets/galerie/galerieImmaculeeOeuvre1.png"
